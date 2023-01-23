@@ -11,7 +11,7 @@ function Header() {
   }
 
   return (
-    <header className='header-container pt-4 pb-2 px-3 sticky-top'>
+    <header className='header-container pt-4 pb-2 px-3'>
       <Link to='/' className='nav-link'>
         <h1 className='mb-1 fs-1'>FACU SOSA</h1>
         <h6 className='header-subtitle fw-light m-0 text-center'>· Believe & Create ·</h6>
