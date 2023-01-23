@@ -21,6 +21,10 @@ body {
   width: 65%;
 }
 
+.w-min-content {
+  width: min-content;
+}
+
 .line {
   border: solid 1px #8b818137;
   width: 100%;
@@ -30,15 +34,19 @@ body {
 
 .header-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: 72px max-content;
+  justify-content: space-between;
+  align-items: center;
   background-color: #FFF8F8;
+  border-bottom: solid 1px #8b818137;
 }
 
 
 /* NAVEGADOR */
 
-.nav-links-enter {
-  height: 0;
+.nav-container {
+  grid-column: -3 / -1;
 }
 
 
