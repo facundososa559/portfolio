@@ -35,13 +35,17 @@ body {
 .header-container {
   display: grid;
   grid-template-columns: repeat(2, max-content);
-  grid-template-rows: 72px max-content;
+  grid-template-rows: repeat(2, max-content);;
   justify-content: space-between;
   align-items: center;
   background-color: #FFF8F8;
-  border-bottom: solid 1px #8b818137;
+ 
 }
 
+.header-subtitle {
+  font-size: 90%;
+  font-family: 'Amatic', cursive;
+}
 
 /* NAVEGADOR */
 
