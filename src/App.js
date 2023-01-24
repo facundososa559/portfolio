@@ -11,7 +11,7 @@ function App() {
     <div className='d-grid justify-content-center w-100'>
       <TransitionGroup className='wrapper p-3 position-relative'>
         <Header/>
-        <CSSTransition key={location.pathname} classNames="fade" timeout={1000}>
+        <CSSTransition key={location.pathname} classNames="fade" timeout={1200}>
           <AnimatedApp location={location}/>
         </CSSTransition>
       </TransitionGroup> 
