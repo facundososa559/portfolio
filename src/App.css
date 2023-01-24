@@ -92,11 +92,19 @@ body {
   background-image: url('./assets/portada.jpg');
   background-size: cover;
   background-position: center left;
-  
+  justify-self: center;
+}
+
+.home-titles_container {
+  width: min-content;
+  display: grid;
+  justify-self: end;
 }
 
 .home-titles {
+  font-size: 2rem;
   font-weight: 300;
+  text-align: end;
 }
 
 
@@ -124,17 +132,63 @@ body {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 375px) {
   .header-title {
+    width: auto;
+  }
+
+  .home-titles_container {
     width: auto;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 713px) {
   .portada {
     width: 540px;
   }
+
+  .home-titles_container {
+    grid-auto-flow: column;
+    justify-self: center;
+    column-gap: 20px;
+  }
+  
+  .home-titles {
+    text-align: center;
+  }
 }
+
+
+@media screen and (min-width: 920px) {
+  .header-container {
+    align-items: center;
+  }
+  
+  .header-button {
+    display: none;
+  }
+  
+  .nav-wrapper {
+    row-gap: 0px;
+  }
+  
+  .nav-mobile {
+    display: none;
+  }
+  
+  .nav-desktop {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+  }
+  
+  .home-titles_container {
+    column-gap: 0px;
+    width: 743px;
+  }
+}
+
+
 
 @media screen and (min-height: 630px) {
   .center-container {
@@ -142,19 +196,5 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .header-button {
-    display: none;
-  }
-
-  .nav-mobile {
-    display: none;
-  }
-
-  .nav-desktop {
-    display: flex;
   }
 }
