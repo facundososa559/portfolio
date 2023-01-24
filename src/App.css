@@ -25,6 +25,10 @@ body {
   width: min-content;
 }
 
+.h-min-content {
+  height: min-content;
+}
+
 .line {
   border: solid 1px #8b818137;
   width: 100%;
@@ -37,14 +41,29 @@ body {
   grid-template-columns: repeat(2, max-content);
   grid-template-rows: repeat(2, max-content);;
   justify-content: space-between;
-  align-items: center;
-  background-color: #FFF8F8;
- 
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .header-subtitle {
-  font-size: 90%;
-  font-family: 'Amatic', cursive;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-left: 2px;
+}
+
+.header-button {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.header-button__dot {
+  border: solid 3.5px black;
+  border-radius: 200px;
 }
 
 /* NAVEGADOR */
@@ -54,14 +73,19 @@ body {
 }
 
 
-/* PORTADA */
+/* HOME */
 
 .portada {
-  width: 70%;
+  width: 80%;
   height: 65vh;
   background-image: url('./assets/portada.jpg');
   background-size: cover;
-  background-position: bottom left;
+  background-position: center left;
+  
+}
+
+.home-titles {
+  font-weight: 300;
 }
 
 
@@ -89,23 +113,15 @@ body {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 1100px) {
+
+@media screen and (min-width: 700px) {
   .portada {
-    width: 55%;
-    height: 60vh;
+    width: 540px;
   }
 }
 
-@media screen and (max-height: 475px) {
-  .portada {
-    background-position: center left;
-  }
-
-  .project-container {
-    position: static;
-  }
-
-  .contact-container {
-    position: static;
+@media screen and (min-width: 1024px) {
+  .header-button {
+    display: none;
   }
 }

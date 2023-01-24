@@ -11,12 +11,16 @@ function Header() {
   }
 
   return (
-    <header className='header-container pt-4 pb-2 px-3'>
+    <header className='header-container pt-4 pb-2'>
       <Link to='/' className='nav-link'>
-        <h1 className='mb-1 fs-1'>FACU SOSA</h1>
-        <h6 className='header-subtitle fw-light m-0 text-center'>· Believe & Create ·</h6>
-      </Link>
-      <button onClick={handleOpen} className='btn border-0 p-0 w-min-content'><img src={menuIcon} alt="menu-icon.svg" /></button>
+        <h1 className='header-title mb-0'>FACU SOSA</h1>
+        <h1 className='header-subtitle mb-0'>Believe & Create</h1>
+      </Link>          
+        <button onClick={handleOpen} className='header-button btn border-0 p-0 pt-1 w-min-content h-min-content'>
+          <span className='header-button__dot'></span>
+          <span className='header-button__dot'></span>
+          <span className='header-button__dot'></span>
+        </button>
       <nav className='nav-container text-end'>
         {open === true && <NavBar />}
       </nav>
