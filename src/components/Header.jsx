@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import NavBar from './NavBar'
 import { Link } from 'react-router-dom'
-import menuIcon from '../assets/menu-icon.svg'
 
 function Header() {
   const [open, setOpen] = useState(false)
