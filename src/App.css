@@ -49,7 +49,7 @@ body {
 }
 
 .header-subtitle {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
   margin-left: 2px;
 }
@@ -108,6 +108,21 @@ body {
 }
 
 
+/* ABOUT */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 8%;
+}
+
+.about-paragraph {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
 /* CSS TRANSITIONS */
 
 .fade-enter {
@@ -135,6 +150,10 @@ body {
 @media screen and (min-width: 375px) {
   .header-title {
     width: auto;
+  }
+  
+  .header-subtitle {
+    font-size: 1.25rem;
   }
 
   .home-titles_container {
@@ -185,6 +204,10 @@ body {
   .home-titles_container {
     column-gap: 0px;
     width: 743px;
+  }
+
+  .about-paragraph {
+    width: 730px;
   }
 }
 

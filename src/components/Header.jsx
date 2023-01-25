@@ -6,8 +6,8 @@ function Header() {
   return (
     <header className='header-container pb-2'>
       <Link to='/' className='nav-link'>
-        <h1 className='header-title mb-0 text-wrap'>FACU SOSA</h1>
-        <h1 className='header-subtitle mb-0 text-wrap'>Believe & Create</h1>
+        <h1 className='header-title mb-0'>FACU SOSA</h1>
+        <h1 className='header-subtitle mb-0'>Believe & Create</h1>
       </Link>    
       <NavBar />      
     </header>

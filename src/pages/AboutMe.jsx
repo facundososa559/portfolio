@@ -2,14 +2,17 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <div className='about-container my-3'>
+    <section className='about-container my-5'>
       <p className='about-paragraph'>
-        Soy curioso, me gusta investigar, aprender, y me gusta desafiarme. Esto me trajo al mundo IT, e hizo que me sumergiera de lleno en un aprendizaje sin fin de cosas interesantes y apasionantes, pero lleno de frustraciones que tuve que aprender a manejar.
+        Soy Facundo Sosa, un desarrollador Frontend Junior con una gran pasión por investigar, aprender y desafiarme dentro del mundo IT.  
       </p>
       <p className='about-paragraph'>
-        Con mis primeros proyectos todo pareció fácil, incluso creí que conseguir trabajo también lo iba a ser, hasta que caí en la realidad. Me di cuenta de que, aparte de no tener los suficientes conocimientos en el área, no sabía ni que poner en un CV, tenía una noción muy vaga de Linkedin, y hasta puedo decir que me conocía muy poco, al momento de hacer mi descripción quedé en blanco. A partir de ahí me di cuenta de que, no solo tenía que aprender las tecnologías que quería aprender, sino que también, tenía que leer mucho, aprender mucho, escribir mucho y sobre todo pensar bastante en quien soy, que es lo que quiero y a donde voy.
+        Mi experiencia incluye trabajar con JavaScript y React, y recientemente terminé mi carrera en Desarrollo Frontend React en Coderhouse con excelentes calificaciones. Además, obtuve mi certificación de AWS Cloud Practitioner y completé el programa de capacitación AWS re/Start brindado por Forge Fundation y Coding Dojo. Actualmente estoy haciendo una pasantía en upCamp.io como Front End developer donde estoy adquiriendo experiencia en cómo es trabajar en proyectos para clientes, y cómo superarme día a día para aportar valor al proyecto y a mis compañeros.
       </p>
-    </div>
+      <p className='about-paragraph'>
+        Mi objetivo es seguir especializándome en tecnologías Frontend y en el uso de la nube de AWS para ser un candidato fuerte para cualquier proyecto que requiera estas habilidades. Asimismo, en un futuro me gustaría asumir un rol de liderazgo en un equipo de desarrollo y tambien incursionar en áreas como el diseño de experiencias de usuarios y gestión de bases de datos, para poder ofrecer un valor agregado en cualquier proyecto en el que trabaje.
+      </p>
+    </section>
     
   )
 }
