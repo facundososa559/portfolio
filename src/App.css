@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
 
   font-family: 'Jost', sans-serif;
+  color: #2F2F2F;
   background-color: #FFF8F8;
 }
 
@@ -23,10 +24,10 @@ body {
   z-index: -1;
   width: 200%;
   height: auto;
-  background: transparent url("./assets/img-noise-361x370 (6).png");
+  background: transparent url("./assets/img-noise-361x370 (5).png");
   background-repeat: repeat;
   animation: bg-animation .3s steps(6) infinite;
-  opacity: .6;
+  opacity: .7;
   visibility: visible;
 }
 
