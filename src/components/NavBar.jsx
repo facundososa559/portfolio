@@ -1,8 +1,14 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function NavBar() {
-  const nodeRef = useRef(null);
+  const navList = [
+    {id: 1 , link: 'HOME', route: '/'},
+    {id: 2 , link: 'ABOUT', route: '/about'},
+    {id: 3 , link: 'PROJECTS', route: '/projects'},
+    {id: 4 , link: 'CONTACT', route: '/contact'}
+  ]
+
   const [open, setOpen] = useState(false)
 
   const handleOpen = () => {
@@ -10,7 +16,7 @@ function NavBar() {
   }
 
   return (
-    <div className='nav-wrapper'>
+    <div className='nav-wrapper' >
       <button onClick={handleOpen} className='header-button btn border-0 p-0 pt-1 w-min-content h-min-content'>
         <span className='header-button__dot'></span>
         <span className='header-button__dot'></span>
@@ -19,19 +25,25 @@ function NavBar() {
 
       <nav className='nav-container text-end'>
         <ul className='nav-desktop m-0 px-0 py-1'>
-          <li className='nav-links my-1'><Link to='/' className='nav-link fs-5 fw-light'>HOME</Link></li>
-          <li className='nav-links my-1'><Link to='/about' className='nav-link fs-5 fw-light'>ABOUT</Link></li>
-          <li className='nav-links my-1'><Link to='/projects' className='nav-link fs-5 fw-light'>PROJECTS</Link></li>
-          <li className='nav-links my-1'><Link to='/contact' className='nav-link fs-5 fw-light'>CONTACT</Link></li>
+          {navList.map(item => {
+            return (
+              <li key={item.id} className='nav-links my-1'>
+                <Link to={item.route} className='nav-link fs-5 fw-light'>{item.link}</Link>
+              </li>
+            )
+          })}
         </ul>
 
-      {open === true && 
-        <ul ref={nodeRef} className='nav-mobile m-0 px-0 py-1'>
-          <li className='nav-links my-1'><Link to='/' className='nav-link fs-5 fw-light'>HOME</Link></li>
-          <li className='nav-links my-1'><Link to='/about' className='nav-link fs-5 fw-light'>ABOUT</Link></li>
-          <li className='nav-links my-1'><Link to='/projects' className='nav-link fs-5 fw-light'>PROJECTS</Link></li>
-          <li className='nav-links my-1'><Link to='/contact' className='nav-link fs-5 fw-light'>CONTACT</Link></li>
-        </ul>}     
+        {open === true &&
+          <ul className= 'nav-mobile m-0 px-0 py-1'>
+            {navList.map(item => {
+            return (
+              <li key={item.id} className='nav-links my-1'>
+                <Link to={item.route} className='nav-link fs-5 fw-light'>{item.link}</Link>
+              </li>
+            )
+            })}
+          </ul>}
       </nav>
     </div>
   )

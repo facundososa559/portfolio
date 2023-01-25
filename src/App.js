@@ -8,13 +8,17 @@ function App() {
   const location = useLocation()
 
   return (
-    <div className='d-grid justify-content-center w-100'>
-      <TransitionGroup className='wrapper p-3 position-relative'>
-        <Header/>
-        <CSSTransition key={location.pathname} classNames="fade" timeout={1200}>
-          <AnimatedApp location={location}/>
-        </CSSTransition>
-      </TransitionGroup> 
+    <div className='app-container'>
+      <div className='bg-noise'>               
+        <div className='d-grid justify-content-center w-100'>
+          <TransitionGroup className='wrapper p-3 position-relative'>
+            <Header/>
+            <CSSTransition key={location.pathname} classNames="fade" timeout={1200}>
+              <AnimatedApp location={location}/>
+            </CSSTransition>
+          </TransitionGroup> 
+        </div>
+      </div> 
     </div>
       
   );

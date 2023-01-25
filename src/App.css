@@ -9,6 +9,41 @@ body {
   background-color: #FFF8F8;
 }
 
+.app-container {
+  position: static;
+}
+
+.bg-noise::after {
+  content: "";
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  z-index: -1;
+  width: 200%;
+  height: auto;
+  background: transparent url("./assets/img-noise-361x370 (6).png");
+  background-repeat: repeat;
+  animation: bg-animation .3s steps(6) infinite;
+  opacity: .6;
+  visibility: visible;
+}
+
+@keyframes bg-animation {
+  0% { transform: translate(0,0) }
+  10% { transform: translate(-5%,-5%) }
+  20% { transform: translate(-10%,5%) }
+  30% { transform: translate(5%,-10%) }
+  40% { transform: translate(-5%,15%) }
+  50% { transform: translate(-10%,5%) }
+  60% { transform: translate(15%,0) }
+  70% { transform: translate(0,10%) }
+  80% { transform: translate(-15%,0) }
+  90% { transform: translate(10%,5%) }
+  100% { transform: translate(5%,0) }
+}
+
 .wrapper {
   width: 100vw;
   height: 100vh;
@@ -77,6 +112,14 @@ body {
 
 .nav-links {
   list-style-type: none;
+}
+
+.nav-mobile {
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.nav-mobile-show {
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
 
 .nav-desktop {
