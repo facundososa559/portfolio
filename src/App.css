@@ -24,7 +24,7 @@ body {
   z-index: -1;
   width: 200%;
   height: auto;
-  background: transparent url("./assets/img-noise-361x370 (5).png");
+  background: transparent url("./assets/img-noise-361x370 (4).png");
   background-repeat: repeat;
   animation: bg-animation .3s steps(6) infinite;
   opacity: .7;
@@ -191,7 +191,7 @@ body {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 425px) {
   .header-title {
     width: auto;
   }
@@ -204,6 +204,8 @@ body {
     width: auto;
   }
 }
+
+
 
 @media screen and (min-width: 713px) {
   .portada {
