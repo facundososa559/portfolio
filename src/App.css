@@ -26,8 +26,8 @@ body {
   height: auto;
   background: transparent url("./assets/img-noise-361x370 (4).png");
   background-repeat: repeat;
-  animation: bg-animation .3s steps(6) infinite;
-  opacity: .7;
+  animation: bg-animation .7s steps(5) infinite;
+  opacity: .6;
   visibility: visible;
 }
 
@@ -115,6 +115,7 @@ body {
   list-style-type: none;
 }
 
+
 .nav-mobile {
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
@@ -125,6 +126,59 @@ body {
 
 .nav-desktop {
   display: none;
+}
+
+/* ANIMACION DE LINKS DEL NAVEGADOR */
+
+.nav-link span {
+  transition: all .2s ease-in-out;
+}
+
+.nav-link:hover span:nth-child(1) {
+  transition: all .2s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.nav-link:hover span:nth-child(2) {
+  transition: all .2s ease-in-out;
+  transition-delay: 100ms;
+  transform: translateY(-5px);
+}
+
+.nav-link:hover span:nth-child(3) {
+  transition: all .2s ease-in-out;
+  transition-delay: 150ms;
+  transform: translateY(-5px);
+}
+
+.nav-link:hover span:nth-child(4) {
+  transition: all .2s ease-in-out;
+  transition-delay: 200ms;
+  transform: translateY(-5px);
+}
+
+.nav-link:hover span:nth-child(5) {
+  transition: all .2s ease-in-out;
+  transition-delay: 250ms;
+  transform: translateY(-5px);
+}
+
+.nav-link:hover span:nth-child(6) {
+  transition: all .2s ease-in-out;
+  transition-delay: 300ms;
+  transform: translateY(-5px);
+}
+
+.nav-link:hover span:nth-child(7) {
+  transition: all .2s ease-in-out;
+  transition-delay: 350ms;
+  transform: translateY(-5px);
+}
+
+.nav-link:hover span:nth-child(8) {
+  transition: all .2s ease-in-out;
+  transition-delay: 400ms;
+  transform: translateY(-5px);
 }
 
 

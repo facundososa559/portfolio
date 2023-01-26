@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
   const navList = [
-    {id: 1 , link: 'HOME', route: '/'},
-    {id: 2 , link: 'ABOUT', route: '/about'},
-    {id: 3 , link: 'PROJECTS', route: '/projects'},
-    {id: 4 , link: 'CONTACT', route: '/contact'}
+    {id: 1, link: 'HOME', route: '/'},
+    {id: 2, link: 'ABOUT', route: '/about'},
+    {id: 3, link: 'PROJECTS', route: '/projects'},
+    {id: 4, link: 'CONTACT', route: '/contact'}
   ]
 
   const [open, setOpen] = useState(false)
@@ -14,6 +14,9 @@ function NavBar() {
   const handleOpen = () => {
     setOpen(!open)
   }
+
+  const link = document.getElementsByClassName('nav-link')
+  console.log(link);
 
   return (
     <div className='nav-wrapper' >
@@ -28,7 +31,11 @@ function NavBar() {
           {navList.map(item => {
             return (
               <li key={item.id} className='nav-links my-1'>
-                <Link to={item.route} className='nav-link fs-5 fw-light'>{item.link}</Link>
+                <Link to={item.route} className='nav-link fs-5 fw-light d-flex'>
+                  {item.link.split('').map(letter => {
+                    return <span>{letter}</span>; 
+                  })}
+                </Link>
               </li>
             )
           })}
@@ -39,7 +46,11 @@ function NavBar() {
             {navList.map(item => {
             return (
               <li key={item.id} className='nav-links my-1'>
-                <Link to={item.route} className='nav-link fs-5 fw-light'>{item.link}</Link>
+                <Link to={item.route} className='nav-link fs-5 fw-light'>
+                  {item.link.split('').map(letter => {
+                      return <span>{letter}</span>; 
+                    })}
+                </Link>
               </li>
             )
             })}
