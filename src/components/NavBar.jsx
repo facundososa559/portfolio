@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function NavBar() {
+  const [open, setOpen] = useState(false)
+ 
   const navList = [
     {id: 1, link: 'HOME', route: '/'},
     {id: 2, link: 'ABOUT', route: '/about'},
@@ -9,14 +11,9 @@ function NavBar() {
     {id: 4, link: 'CONTACT', route: '/contact'}
   ]
 
-  const [open, setOpen] = useState(false)
-
   const handleOpen = () => {
     setOpen(!open)
   }
-
-  const link = document.getElementsByClassName('nav-link')
-  console.log(link);
 
   return (
     <div className='nav-wrapper' >
@@ -33,7 +30,7 @@ function NavBar() {
               <li key={item.id} className='nav-links my-1'>
                 <Link to={item.route} className='nav-link fs-5 fw-light d-flex'>
                   {item.link.split('').map(letter => {
-                    return <span>{letter}</span>; 
+                    return <span className='d-flex align-items-center'>{letter}</span>; 
                   })}
                 </Link>
               </li>

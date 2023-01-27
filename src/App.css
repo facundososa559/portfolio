@@ -10,10 +10,6 @@ body {
   background-color: #FFF8F8;
 }
 
-.app-container {
-  position: static;
-}
-
 .bg-noise::after {
   content: "";
   position: fixed;
@@ -24,26 +20,13 @@ body {
   z-index: -1;
   width: 200%;
   height: auto;
-  background: transparent url("./assets/img-noise-361x370 (4).png");
+  background: transparent url("./assets/noise-1.png");
   background-repeat: repeat;
   animation: bg-animation .7s steps(5) infinite;
   opacity: .6;
   visibility: visible;
 }
 
-@keyframes bg-animation {
-  0% { transform: translate(0,0) }
-  10% { transform: translate(-5%,-5%) }
-  20% { transform: translate(-10%,5%) }
-  30% { transform: translate(5%,-10%) }
-  40% { transform: translate(-5%,15%) }
-  50% { transform: translate(-10%,5%) }
-  60% { transform: translate(15%,0) }
-  70% { transform: translate(0,10%) }
-  80% { transform: translate(-15%,0) }
-  90% { transform: translate(10%,5%) }
-  100% { transform: translate(5%,0) }
-}
 
 .wrapper {
   width: 100vw;
@@ -115,15 +98,6 @@ body {
   list-style-type: none;
 }
 
-
-.nav-mobile {
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-}
-
-.nav-mobile-show {
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-}
-
 .nav-desktop {
   display: none;
 }
@@ -135,50 +109,35 @@ body {
 }
 
 .nav-link:hover span:nth-child(1) {
-  transition: all .2s ease-in-out;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate; 
 }
 
 .nav-link:hover span:nth-child(2) {
-  transition: all .2s ease-in-out;
-  transition-delay: 100ms;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate 100ms ;
 }
 
 .nav-link:hover span:nth-child(3) {
-  transition: all .2s ease-in-out;
-  transition-delay: 150ms;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate 150ms ;
 }
 
 .nav-link:hover span:nth-child(4) {
-  transition: all .2s ease-in-out;
-  transition-delay: 200ms;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate 200ms ;
 }
 
 .nav-link:hover span:nth-child(5) {
-  transition: all .2s ease-in-out;
-  transition-delay: 250ms;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate 250ms ;
 }
 
 .nav-link:hover span:nth-child(6) {
-  transition: all .2s ease-in-out;
-  transition-delay: 300ms;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate 300ms ;
 }
 
 .nav-link:hover span:nth-child(7) {
-  transition: all .2s ease-in-out;
-  transition-delay: 350ms;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate 350ms ;
 }
 
 .nav-link:hover span:nth-child(8) {
-  transition: all .2s ease-in-out;
-  transition-delay: 400ms;
-  transform: translateY(-5px);
+  animation: wave .2s ease-in-out alternate 400ms ;
 }
 
 
@@ -197,6 +156,7 @@ body {
   width: min-content;
   display: grid;
   justify-self: end;
+  row-gap: 8px;
 }
 
 .home-titles {
@@ -223,17 +183,14 @@ body {
 
 /* CSS TRANSITIONS */
 
-.fade-enter {
+.fade-enter,
+.fade-exit {
   opacity: 0;
 }
 
 .fade-enter-active {
  opacity: 1;
  transition: opacity 2000ms;
-}
-
-.fade-exit {
-  opacity: 0;
 }
 
 .fade-exit-active {
@@ -246,6 +203,10 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 425px) {
+  .bg-noise::after {
+    background: transparent url("./assets/noise-2.png");
+  }
+
   .header-title {
     width: auto;
   }
@@ -258,8 +219,6 @@ body {
     width: auto;
   }
 }
-
-
 
 @media screen and (min-width: 713px) {
   .portada {
@@ -283,16 +242,13 @@ body {
     align-items: center;
   }
   
-  .header-button {
+  .header-button,
+  .nav-mobile {
     display: none;
   }
   
   .nav-wrapper {
     row-gap: 0px;
-  }
-  
-  .nav-mobile {
-    display: none;
   }
   
   .nav-desktop {
@@ -320,4 +276,25 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+
+
+/* KEYFRAMES */
+
+@keyframes bg-animation {
+  0% { transform: translate(0,0) }
+  10% { transform: translate(-5%,-5%) }
+  20% { transform: translate(-10%,5%) }
+  30% { transform: translate(5%,-10%) }
+  40% { transform: translate(-5%,15%) }
+  50% { transform: translate(-10%,5%) }
+  60% { transform: translate(15%,0) }
+  70% { transform: translate(0,10%) }
+  80% { transform: translate(-15%,0) }
+  90% { transform: translate(10%,5%) }
+  100% { transform: translate(5%,0) }
+}
+
+@keyframes wave {
+  50% { transform: translateY(-6px); }
 }

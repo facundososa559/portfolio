@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='app-container'>
       <div className='bg-noise'>               
-        <div className='d-grid justify-content-center  w-100'>
+        <div className='d-grid justify-content-center w-100'>
           <AnimatedAppContainer/>
         </div>
       </div> 
