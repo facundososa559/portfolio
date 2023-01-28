@@ -30,7 +30,7 @@ function NavBar() {
               <li key={item.id} className='nav-links my-1'>
                 <Link to={item.route} className='nav-link fs-5 fw-light d-flex'>
                   {item.link.split('').map(letter => {
-                    return <span className='d-flex align-items-center'>{letter}</span>; 
+                    return <span>{letter}</span>; 
                   })}
                 </Link>
               </li>
@@ -43,7 +43,7 @@ function NavBar() {
             {navList.map(item => {
             return (
               <li key={item.id} className='nav-links my-1'>
-                <Link to={item.route} className='nav-link fs-5 fw-light'>
+                <Link to={item.route} className='nav-link fs-5 fw-light d-flex justify-content-end'>
                   {item.link.split('').map(letter => {
                       return <span>{letter}</span>; 
                     })}

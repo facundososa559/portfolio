@@ -2,15 +2,18 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <section className='about-container my-5'>
+    <section className='about-container my-5 px-4'>
       <p className='about-paragraph'>
-        Soy Facundo Sosa, un desarrollador especializado en crear sitios web que se vean y funcionen de manera atractiva y fácil de usar. Mi experiencia incluye trabajar con JavaScript y React, y recientemente terminé mi carrera en Desarrollo Frontend React con excelentes calificaciones. Además, obtuve mi certificación de AWS Cloud Practitioner y completé el programa de capacitación AWS re/Start brindado por Forge Fundation y Coding Dojo.
+        I'm a Frontend developer specialized in creating visually appealing and user-friendly websites.
       </p>
       <p className='about-paragraph'>
-        Mi objetivo es ayudar a las empresas a mejorar su presencia en línea, especializándome en el uso de tecnologías Frontend y la nube de AWS, para ser un candidato fuerte para cualquier proyecto que requiera estas habilidades.
+        My experience includes working with JavaScript and React, and I recently graduated with high marks in Frontend React Development. Additionally, I have obtained my AWS Cloud Practitioner certification and completed the AWS re/Start training program.
+      </p>
+      <p className="about-paragraph">
+        My goal is to assist companies in improving their online presence, specializing in Frontend technologies and AWS Cloud, making me a strong candidate for any project requiring these skills.
       </p>
       <p className='about-paragraph'>
-        Si estás buscando un desarrollador frontend con habilidades técnicas sólidas y una perspectiva enfocada en el usuario, no dudes en ponerte en  contacto conmigo o revisar mis proyectos anteriores para  que puedas ver mi trabajo previo.
+        If you are looking for a Frontend developer with solid technical skills and a user-focused perspective, please feel free to contact me or review my previous projects to see my work.
       </p>
     </section>
     

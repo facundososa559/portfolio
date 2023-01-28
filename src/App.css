@@ -23,10 +23,9 @@ body {
   background: transparent url("./assets/noise-1.png");
   background-repeat: repeat;
   animation: bg-animation .7s steps(5) infinite;
-  opacity: .6;
+  opacity: .5;
   visibility: visible;
 }
-
 
 .wrapper {
   width: 100vw;
@@ -168,15 +167,8 @@ body {
 
 /* ABOUT */
 
-.about-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0% 8%;
-}
-
 .about-paragraph {
-  font-size: 1.2rem;
+  font-size: 138%;
   font-weight: 300;
 }
 
@@ -260,6 +252,12 @@ body {
   .home-titles_container {
     column-gap: 0px;
     width: 743px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-paragraph {
