@@ -16,7 +16,7 @@ function NavBar() {
   }
 
   return (
-    <div className='nav-wrapper' >
+    <div className='nav-wrapper'>
       <button onClick={handleOpen} className='header-button btn border-0 p-0 pt-1 w-min-content h-min-content'>
         <span className='header-button__dot'></span>
         <span className='header-button__dot'></span>

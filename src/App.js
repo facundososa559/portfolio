@@ -9,8 +9,7 @@ function App() {
           <AnimatedAppContainer/>
         </div>
       </div> 
-    </div>
-      
+    </div>  
   );
 }
 
