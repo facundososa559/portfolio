@@ -2,7 +2,12 @@ import React from 'react'
 
 function Intro() {
   return (
-    <h1>Intro</h1>
+    <div className='intro-wrapper'>
+        <span className='intro-container'>
+            <span className='intro-title me-3'>Facundo Sosa</span>
+            <span className='intro-subtitle'>Portfolio</span>
+        </span>
+    </div>
   )
 }
 
