@@ -204,6 +204,29 @@ body {
   font-weight: 300;
 }
 
+/* CONTACT */
+
+.contact-container {
+  display: grid;
+  justify-items: center;
+  grid-template-areas: 
+  "email email"
+  "linkedin facebook";
+  row-gap: 16px;
+}
+
+.contact-container li:nth-child(1) {  
+  grid-area: email;
+}
+
+.contact-container li:nth-child(2) {
+  grid-area: linkedin;
+}
+
+.contact-container li:nth-child(3) {
+  grid-area: facebook;
+}
+
 
 /* CSS TRANSITIONS */
 

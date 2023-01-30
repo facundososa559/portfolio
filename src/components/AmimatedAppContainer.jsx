@@ -11,7 +11,7 @@ function AmimatedAppContainer() {
         <TransitionGroup className='wrapper p-3 position-relative'>
             <Header />
             <CSSTransition key={location.pathname} classNames="fade" timeout={1200}>
-                <AnimatedApp location={location} />
+                <AnimatedApp location={location}/>
             </CSSTransition>
         </TransitionGroup>
     )

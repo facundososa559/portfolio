@@ -29,8 +29,8 @@ function NavBar() {
             return (
               <li key={item.id} className='nav-links my-1'>
                 <Link to={item.route} className='nav-link fs-5 fw-light d-flex'>
-                  {item.link.split('').map(letter => {
-                    return <span>{letter}</span>; 
+                  {item.link.split('').map((letter, index) => {
+                    return <span key={index}>{letter}</span>; 
                   })}
                 </Link>
               </li>
@@ -44,8 +44,9 @@ function NavBar() {
             return (
               <li key={item.id} className='nav-links my-1'>
                 <Link to={item.route} className='nav-link fs-5 fw-light d-flex justify-content-end'>
-                  {item.link.split('').map(letter => {
-                      return <span>{letter}</span>; 
+                  {item.link.split('').map((letter, index) => {
+                      
+                      return <span key={index}>{letter}</span>; 
                     })}
                 </Link>
               </li>
