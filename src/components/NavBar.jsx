@@ -6,9 +6,9 @@ function NavBar() {
  
   const navList = [
     {id: 1, link: 'HOME', route: '/'},
-    {id: 2, link: 'SOBRE MÍ', route: '/about'},
-    {id: 3, link: 'PROYECTOS', route: '/projects'},
-    {id: 4, link: 'CONTACTO', route: '/contact'}
+    {id: 2, link: 'ABOUT', route: '/about'},
+    {id: 3, link: 'PROJECTS', route: '/projects'},
+    {id: 4, link: 'CONTACT', route: '/contact'}
   ]
 
   const handleOpen = () => {

@@ -251,20 +251,20 @@ body {
 }
 
 .form-button {
-  background: none;
-  border: solid 0.5px #2f2f2f;
+  background-color: #2f2f2f;;
+  color: #FFF8F8;
   grid-area: button;
   font-size: 1.25rem;
   font-weight: 300;
   justify-self: center;
   padding: 0.5rem 1rem;
   transition: all .4s ease-in-out;
-  color: #2f2f2f;
 }
 
 .form-button:hover {
-  background-color: #2F2F2F;
-  color: #FFF8F8;
+  background-color: #FFF8F8;
+  color: #2f2f2f;;
+  border: solid 0.5px #2f2f2f;
 }
 
 
