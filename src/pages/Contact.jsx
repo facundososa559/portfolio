@@ -29,10 +29,10 @@ function Contact() {
         <button className='form-button' type='submit'>SEND</button>
       </form>
 
-      <ul className='d-flex p-0 mt-5 mb-3'>
-        <li className='list-group-item mx-1'><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'><img src={linkedin} alt="linkedin.svg" /></a></li>
-        <li className='list-group-item mx-1'><a href="https://www.instagram.com/facudev.uy/" target="_blank" rel='noreferrer'><img src={instagram} alt="instagram.svg" /></a></li>
-        <li className='list-group-item mx-1'><a href="https://github.com/FacundoSosa" target="_blank" rel='noreferrer'><img src={github} alt="github.svg" /></a></li>
+      <ul className='d-flex p-0 mt-5 mb-3 overflow-hidden'>
+        <li className='social list-group-item mx-1'><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'><img src={linkedin} alt="linkedin.svg" /></a></li>
+        <li className='social list-group-item mx-1'><a href="https://www.instagram.com/facudev.uy/" target="_blank" rel='noreferrer'><img src={instagram} alt="instagram.svg" /></a></li>
+        <li className='social list-group-item mx-1'><a href="https://github.com/FacundoSosa" target="_blank" rel='noreferrer'><img src={github} alt="github.svg" /></a></li>
       </ul>
     </section>
   )

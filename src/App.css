@@ -267,6 +267,10 @@ body {
   border: solid 0.5px #2f2f2f;
 }
 
+.social {
+  animation: show-home-titles 800ms ease-out 100ms forwards;
+}
+
 
 /* CSS TRANSITIONS */
 
