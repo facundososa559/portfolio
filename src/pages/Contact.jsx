@@ -1,13 +1,32 @@
 import React from 'react'
+import emailjs from '@emailjs/browser'
 
 function Contact() {
+  const sendEmail = (event) => {
+    event.preventDefault();
+
+    /* emailjs.sendForm('service_srddd2h', 'template_diq3ivy', event.target, 'pTggeyXlvywUQRo28')
+      .then(response => console.log(response))
+      .catch(error => console.log(error)) */
+  }
+
   return (
-    <section className='center-container d-flex flex-column align-items-center fs-2 fw-light'>
-        <ul className='contact-container ps-0 m-0'>
-          <li className='list-group-item'><p className='m-0'>facundososa676@gmail.com</p></li>
-          <li className='list-group-item'><a className='text-decoration-none text-black fs-2' href="https://www.linkedin.com/in/facundososa676/" target='_blank' rel='noreferrer'>LINKEDIN</a></li>
-          <li className='list-group-item'><a className='text-decoration-none text-black fs-2' href="https://www.facebook.com/profile.php?id=100086093425316" target='_blank' rel='noreferrer'>FACEBOOK</a></li>
-        </ul>
+    <section className='d-flex justify-content-center'>
+      <form className='form-container' onSubmit={sendEmail}>
+        <div className='input-container'>
+          <label className='label'>NOMBRE</label>
+          <input className='input' type="name" name='user-name'/>
+        </div>
+        <div className='input-container'>
+          <label className='label'>E-MAIL</label>
+          <input className='input' type="email" name='user-email'/>
+        </div>
+        <div className='input-container'>
+          <label className='label'>TU MENSAJE</label>
+          <textarea className='input' name='user-message' rows={8}/>
+        </div>
+        <button className='form-button' type='submit'>ENVIAR</button>
+      </form>
     </section>
   )
 }

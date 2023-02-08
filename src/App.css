@@ -206,25 +206,65 @@ body {
 
 /* CONTACT */
 
-.contact-container {
+.form-container {
   display: grid;
-  justify-items: center;
   grid-template-areas: 
-  "email email"
-  "linkedin facebook";
-  row-gap: 16px;
+  "name"
+  "email"
+  "message"
+  "button";
+  gap: 2rem 2.5rem;
+  width: 80%;
 }
 
-.contact-container li:nth-child(1) {  
+.form-container .input-container:nth-child(1) {
+  grid-area: name;
+}
+.form-container .input-container:nth-child(2) {
   grid-area: email;
 }
-
-.contact-container li:nth-child(2) {
-  grid-area: linkedin;
+.form-container .input-container:nth-child(3) {
+  grid-area: message;
 }
 
-.contact-container li:nth-child(3) {
-  grid-area: facebook;
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #2f2f2f;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.input {
+  background: none;
+  color: #2f2f2fdd;
+  border: none;
+  border-bottom: solid 0.5px #2f2f2f6a;
+  outline: none;
+  padding: 4px 0px;
+  font-weight: 300;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.form-button {
+  background: none;
+  border: solid 0.5px #2f2f2f;
+  grid-area: button;
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-self: center;
+  padding: 0.5rem 1rem;
+  transition: all .4s ease-in-out;
+  color: #2f2f2f;
+}
+
+.form-button:hover {
+  background-color: #2F2F2F;
+  color: #FFF8F8;
 }
 
 
@@ -286,6 +326,14 @@ body {
   .home-titles {
     text-align: center;
   }
+
+  .form-container {
+    width: 545px;
+    grid-template-areas: 
+    "name email"
+    "message message"
+    "button button";
+  }
 }
 
 
@@ -322,6 +370,14 @@ body {
 
   .about-paragraph {
     width: 730px;
+  }
+
+  .form-container {
+    width: 50%;
+    grid-template-areas: 
+    "name email"
+    "message message"
+    "button button";
   }
 }
 
