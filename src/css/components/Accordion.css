@@ -1,0 +1,32 @@
+.accordion {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.accordion__body {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.accordion__body--img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 32px 0px;
+    border-radius: 12px;
+}
+
+.accordion__body--link {
+    position: relative;
+}
+
+.accordion__button-container {
+    position: absolute;
+    bottom: 24px;
+    left: 50;
+    z-index: 1;
+}
+
+.accordion__body--text {
+    padding: 16px 0px;
+}

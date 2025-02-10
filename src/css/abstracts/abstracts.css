@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #FFF8F8;
+  
+  }
+  
+  .bg-noise::after {
+    content: "";
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    z-index: -1;
+    width: 200%;
+    height: auto;
+    background: transparent url("../../assets/noise-1.png");
+    background-repeat: repeat;
+    animation: bg-animation .7s steps(5) infinite;
+    opacity: .5;
+    visibility: visible;
+  } 
+
+  .cursor--pointer {
+    cursor: pointer;
+  }
+
+  .border-solid--bottom {
+    border-bottom: solid #2F2F2F 1px;
+  }

@@ -1,0 +1,93 @@
+/* ========== LAYOUT ============ */
+
+/* ===== GENERAL ==== */
+.wrapper {
+    position: relative;
+    padding: 0px 16px;
+}
+
+.container {
+    padding: 8rem 0rem;
+}
+
+.container--fill {
+    width: 100%;
+    height: 100vh;
+}
+
+.container--fill-x {
+    width: 100%;
+}
+
+/* ===== FLEX LAYOUT ====== */
+.container--flex {
+    display: flex;
+}
+
+.container--column {
+    flex-direction: column;
+}
+
+.container--center {
+    justify-content: center;
+    align-items: center;
+}
+
+.container--between {
+    justify-content: space-between;
+}
+
+.container--wrapp {
+    flex-wrap: wrap;
+}
+
+/* ======= POSITION ====== */
+.container--absolute {
+    position: absolute;
+}
+
+/* ======= SECTIONS ======= */
+
+.hero {
+    margin: 72px 0px;
+}
+
+.hero__container {
+    gap: 8px
+}
+
+
+.contact {
+    padding: 0% 20%;
+}
+
+.call-to-action {
+    margin-top: 12px;
+}
+
+.footer {
+    padding: 32px 0;
+}
+
+.social li a {
+    text-decoration: none;
+    margin-right: 16px;
+    color: #2f2f2f;
+}
+
+@media screen and (min-width: 425px) {
+    .container--small {
+        max-width: 80%;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .faq {
+        padding-left: 40%;
+    }
+
+    .container--small {
+        max-width: 70%;
+    }
+}

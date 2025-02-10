@@ -1,7 +1,7 @@
 import './App.css';
-import AnimatedAppContainer from './components/AmimatedAppContainer'
 import { useEffect, useState } from 'react';
-import Intro from './components/Intro';
+import Intro from './pages/Intro';
+import Home from './pages/Home';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -15,10 +15,10 @@ function App() {
 
   return (
     <div className='app-container'>
-      <div className='bg-noise'>               
-        <div className='d-grid justify-content-center w-100'>
-          {loading ? <Intro/> : <AnimatedAppContainer/>}
-        </div>
+      <div className='bg-noise'>
+        <div className='wrapper'>
+          <Home/>
+        </div>               
       </div> 
     </div>  
   );

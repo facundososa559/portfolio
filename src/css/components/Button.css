@@ -1,0 +1,32 @@
+/* BUTTON */
+
+.button {
+  font-family: Outfit, sans-serif;
+  font-size: inherit;
+  font-weight: 300;
+  border: 1.5px solid #2f2f2f;
+  border-radius: 30px;
+  box-shadow: #2f2f2f 0px 3px 0 0;
+  color: #2f2f2f;
+  background-color: #FFF200;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 18px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: #2f2f2f 0px 5px 0 0;
+  transform: translate(0px, -2px);
+  transition: all 100ms ease-in-out;
+}
+
+.button:active {
+  box-shadow: #2f2f2f 0px 2px 0 0;
+  transform: translate(0px, 2px);
+}

@@ -1,0 +1,36 @@
+/* ========== KEYFRAMES ========== */
+
+@keyframes fade-out {
+    100% {opacity: 0;}
+  }
+
+@keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+  
+  @keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-5%,-5%) }
+    20% { transform: translate(-10%,5%) }
+    30% { transform: translate(5%,-10%) }
+    40% { transform: translate(-5%,15%) }
+    50% { transform: translate(-10%,5%) }
+    60% { transform: translate(15%,0) }
+    70% { transform: translate(0,10%) }
+    80% { transform: translate(-15%,0) }
+    90% { transform: translate(10%,5%) }
+    100% { transform: translate(5%,0) }
+  }
+  
+  @keyframes show-from-top {
+    0% {
+      opacity: 0;
+      transform: translateY(-200%);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }

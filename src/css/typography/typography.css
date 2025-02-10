@@ -1,0 +1,103 @@
+
+/* ========= TYPOGRAPHY ========== */
+
+.wrapper {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 24px;
+    color: #2F2F2F;
+  }
+
+/* ===== SPACING ====== */
+
+.heading {
+    margin-bottom: 24px;
+    line-height: 48px;
+    font-size: 2.25rem;
+}
+
+.subheading {
+    line-height: 32px;
+    font-size: 1.75rem;
+    margin-bottom: 24px;
+}
+
+.subheading--small {
+    font-size: 1.25rem;
+}
+
+.letter-spacing {
+    letter-spacing: 6px;
+}
+
+/* ===== SIZING ===== */
+
+.text-small {
+    font-size: 1.25rem;
+}
+
+.text--large {
+    font-size: 1.25rem;
+}
+
+
+.heading--small {
+    font-size: 2rem;
+}
+
+.heading--medium {
+    font-size: 2.5rem;
+}
+
+.heading--large {
+    font-size: 2.25rem;
+}
+
+
+
+/* ===== WEIGHT ===== */
+
+.thin {
+    font-weight: 100;
+}
+
+.extra-light {
+    font-weight: 200;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+
+/* ===== ALIGN ===== */
+
+.text--align-center {
+    text-align: center;
+}
+  
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .heading {
+        font-size: 3rem;
+    }
+}

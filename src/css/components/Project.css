@@ -1,0 +1,26 @@
+
+.projects {
+    gap: 16px;
+}
+
+.projects div {
+    gap: 8px;
+}
+
+.project__description {
+    display: none;
+}
+
+.project__type {
+    border: 1px solid #2f2f2f;
+    width: fit-content ;
+    border-radius: 100px;
+    padding: 0px 8px;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 500px) {
+    .project__description {
+        display: block;
+    }
+}
