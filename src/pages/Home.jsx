@@ -18,8 +18,8 @@ function Home() {
         <section className='hero container--small container--flex container--center'>
           <div className='hero__container container--flex container--column text--align-center'>
             <h1 className='text--small extra-light letter-spacing'>FACU SOSA</h1>
-            <h1 className='heading semi-bold'>Transformo visitas en clientes que generan dinero.</h1>
-            <p>Dirijo tu tráfico a un sitio web para convertirlos en clientes reales. Te ayudo a entender tu embudo de ventas y construyo el lugar donde vas a vender tus productos y servicios.</p>
+            <h1 className='heading semi-bold'>Transformo tus visitas en clientes que generan dinero.</h1>
+            <p>Dirijo tu tráfico a un sitio web optimizado para convertir visitas en clientes. Te ayudo a entender tu embudo de ventas y construyo el lugar donde vas a vender tus productos y servicios.</p>
             <p>Podemos agendar una reunión de 15 minutos donde te doy una consultoría gratis en la que te explico como mejorar tu proceso de ventas, y empezamos a construir tu proyecto.</p>
             <CallToAction />
           </div>
@@ -36,25 +36,25 @@ function Home() {
         <section id='faq' className='container faq'>
         <h4 className='subheading semi-bold'>Preguntas Frecuentes</h4>
           <Accordion 
-                header={<h1 className='regular'>¿Esto es una consultoría de marketing o un servicio completo?</h1>} 
-                content={"Esto es un servicio de diseño y desarrollo web. Pero me gusta darle a mis clientes el contexto necesario para que puedan entender lo que están haciendo con su negocio. Conmigo vas a obtener herramientas de marketing y branding gratuitas que te ayudarán a entender donde está parado tu negocio, y si es necesario construyo un sitio web que te ayude a convertir tu tráfico en clientes."}
+                header={<h1 className='regular'>¿Esto es un servicio de marketing o un servicio web?</h1>} 
+                content={"Esto es un servicio completo. Lo único que te cobro es el diseño y desarrollo de tu web teniendo en cuenta tu presupuesto. Pero me gusta darle a mis clientes herramientas de marketing y branding gratuitas necesarias para entender lo que están haciendo con su negocio y sacar el máximo provecho a este servicio."}
           />
           <Accordion 
               header={<h1 className='regular'>¿Cómo es el proceso de creación y cómo vamos a trabajar?</h1>} 
-              content={"Primero hago un diagnóstico donde evalúo tu negocio y lo que necesitas. Planificamos una estrategia acorde a tus objetivos y comienzo a construir tu sitio web optimizado para convertir tráfico en clientes. Subimos tu web y te asesoro sobre como sacarle el máximo partido."}
+              content={"Primero hago un diagnóstico donde evalúo el estado de tu negocio y con pequeños ajustes ya empiezo a mejorar tu propuesta. Planifico una estrategia acorde a tus objetivos y empiezo a construir tu sitio web optimizado para convertir tráfico en clientes. Subo tu web a internet y te asesoro sobre como sacarle el máximo partido."}
           />
           <Accordion 
               header={<h1 className='regular'>Una vez que terminamos el proyecto, ¿Cómo seguimos?</h1>} 
-              content={"Voy a enseñarte estrategias para que puedas dirigir tráfico hacia ella. Vas a aprender a utilizar los datos arrojados para que puedas mejorar aún más tu propuesta y te voy a enseñar pasos simples para medir la conversión y encontrar puntos para seguir haciendo crecer tu negocio y tus resultados."}
+              content={"Voy a enseñarte estrategias para que puedas dirigir tráfico hacia ella. Vas a aprender a utilizar los datos arrojados para que puedas ajustar aún más tu propuesta y te voy a enseñar pasos simples para medir la conversión y encontrar puntos de mejora para seguir haciendo crecer tu negocio y tus resultados."}
           />
           <Accordion 
-              header={<h1 className='regular'>¿Qué rol cumple mi sitio web en mi negocio?</h1>} 
-              content={"Seguramente ya cuentes con tráfico generado a través de redes sociales o haciendo marketing tradicional. Un sitio web te permite dirigir ese tráfico a un lugar que te permite medir el interés de esos clientes potenciales y aumentar la confianza en tus productos o servicios."}
+              header={<h1 className='regular'>¿Qué rol cumple este servicio en mi negocio?</h1>} 
+              content={"Seguramente ya cuentes con tráfico generado a través de redes sociales o haciendo marketing tradicional. Con esta herramienta vas a poder dirigir ese tráfico a un lugar donde vas a medir el interés de esos clientes potenciales para transformarlos en clientes reales. También vas a aumentar la confianza en tus productos o servicios."}
           />
 
           <Accordion 
               header={<h1 className='regular'>¿Qué es un embudo de ventas?</h1>} 
-              content={"Es el fundamento del marketing que explica el proceso de compra de un cliente, y que maneja cuatro aspectos: atracción, interacción, deseo y acción. "}
+              content={"Es la herramienta de marketing que voy a utilizar para entender y potenciar tu negocio. Explica el proceso de compra de un cliente, y maneja cuatro aspectos fundamentales: atracción, interacción, deseo y acción."}
           />
           
           
@@ -62,13 +62,13 @@ function Home() {
 
         {/* ========= NEWSLETTER ========== */}
         <section className='container container--small'>
-          <h4 className='subheading text--align-center semi-bold'>Déjame tu e-mail si te interesa recibir tips semanales para potenciar tu negocio utilizando herramientas de branding, marketing y copywriting.</h4>
+          <h4 className='subheading text--align-center semi-bold'>Déjame tu e-mail si te interesa recibir tips semanales con herramientas de branding, marketing y copywriting.</h4>
           <NewsletterForm />
         </section>
 
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
-          <h4 className='subheading text--align-center semi-bold'>Si quieres trabajar conmigo agendemos una reunión ahora mismo por el canal que prefieras.</h4>
+          <h4 className='subheading text--align-center semi-bold'>Si te interesa trabajar conmigo agendemos una reunión por el canal que prefieras y coordinamos.</h4>
           <CallToAction />
         </section>
       </main>

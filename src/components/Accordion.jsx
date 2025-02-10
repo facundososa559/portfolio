@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { motion } from "framer-motion";
 import addIcon from "../assets/add-icon.svg"
-import Button from './Button';
 
 function Accordion({header, content, type, images = {}, alt, link}) {
   
@@ -14,7 +13,7 @@ function Accordion({header, content, type, images = {}, alt, link}) {
       const width = window.innerWidth;
       if (width < 500) {
         setCurrentImage(images.mobile);
-      } else if (width < 1024) {
+      } else if (width < 768) {
         setCurrentImage(images.tablet);
       } else {
         setCurrentImage(images.desktop);

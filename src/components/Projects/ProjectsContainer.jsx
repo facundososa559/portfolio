@@ -11,10 +11,12 @@ import cuptiImageMobile from "../../assets/projects/cupti/hero-cupti-mobile.png"
 /* ACTIVE SPORT */
 import activeImageDesktop from "../../assets/projects/active-sports/active-sports-hero-desktop.png"
 import activeImageMobile from "../../assets/projects/active-sports/active-sports-hero-mobile.png"
+import activeImageTablet from "../../assets/projects/active-sports/active-sports-hero-tablet.png"
 
 /* URBAN ZONE */
 import urbanImageDesktop from "../../assets/projects/urban-zone/urban-zone-hero-desktop.png"
 import urbanImageMobile from "../../assets/projects/urban-zone/urban-zone-hero-mobile.png"
+import urbanImageTablet from "../../assets/projects/urban-zone/urban-zone-hero-tablet.png"
 
 function ProjectsContainer() {
   return (
@@ -25,7 +27,7 @@ function ProjectsContainer() {
           type={"DISEÑO WEB"}
           images={{
             mobile: activeImageMobile,
-            tablet: activeImageDesktop,
+            tablet: activeImageTablet,
             desktop: activeImageDesktop
           }}
           link="https://www.instagram.com/activesport.suplementos/"
@@ -36,7 +38,7 @@ function ProjectsContainer() {
           type={"DISEÑO WEB"}
           images={{
             mobile: urbanImageMobile,
-            tablet: urbanImageDesktop,
+            tablet: urbanImageTablet,
             desktop: urbanImageDesktop
           }}
         />
@@ -46,7 +48,7 @@ function ProjectsContainer() {
           type={"DISEÑO WEB"}
           images={{
             mobile: cuptiImageMobile,
-            tablet: cuptiImageDesktop,
+            tablet: cuptiImageTablet,
             desktop: cuptiImageDesktop
           }}
         />
