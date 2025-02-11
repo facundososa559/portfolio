@@ -11,16 +11,16 @@ function Home() {
       {/* ======== HEADER ========== */}
       <header className='header container--flex container--column'>
       <div className='header__container container--flex container--fill-x container--between animation--show-from-top'>
-        <h1 className='header-title'>FACU SOSA</h1>  
+        <h1 className='header-title'>FACU</h1>  
         <NavBar />  
       </div>
         {/* ======== HERO ========== */}
         <section className='hero container--small container--flex container--center'>
           <div className='hero__container container--flex container--column text--align-center'>
-            <h1 className='text--small extra-light letter-spacing'>FACU SOSA</h1>
-            <h1 className='heading semi-bold'>Transformo tus visitas en clientes que generan dinero.</h1>
-            <p>Dirijo tu tráfico a un sitio web optimizado para convertir visitas en clientes. Te ayudo a entender tu embudo de ventas y construyo el lugar donde vas a vender tus productos y servicios.</p>
-            <p>Podemos agendar una reunión de 15 minutos donde te doy una consultoría gratis en la que te explico como mejorar tu proceso de ventas, y empezamos a construir tu proyecto.</p>
+            <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
+            <h1 className='heading semi-bold'>Transformo visitas en clientes que generan dinero.</h1>
+            <p>Dirijo tu tráfico a un sitio web optimizado para convertir clientes. Te ayudo a entender tu embudo de ventas y construyo el lugar donde vas a vender tus productos y servicios.</p>
+            <p>Podemos agendar una reunión de 15 minutos donde te doy una consultoría gratis en la que te explico como mejorar tu proceso de ventas, y si te interesa, empezamos a construir tu proyecto.</p>
             <CallToAction />
           </div>
         </section>     

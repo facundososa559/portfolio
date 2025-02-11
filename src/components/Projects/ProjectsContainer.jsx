@@ -22,6 +22,17 @@ function ProjectsContainer() {
   return (
     <ul className='projects container--flex container--column'>
         <Project 
+          title={"CUPTI Ingeniería"}
+          description={"Proyecto web realizado para empresa dedicada a brindar soluciones en energías renovables, eficiencia energética y diseño industrial"}
+          type={"DISEÑO WEB"}
+          images={{
+            mobile: cuptiImageMobile,
+            tablet: cuptiImageTablet,
+            desktop: cuptiImageDesktop
+          }}
+        />
+
+        <Project 
           title={"Active Sports"}
           description={"Diseño web realizado para una marca dedicada a vender suplementos deportivos"}
           type={"DISEÑO WEB"}
@@ -32,6 +43,7 @@ function ProjectsContainer() {
           }}
           link="https://www.instagram.com/activesport.suplementos/"
         />
+        
         <Project 
           title={"Urban Zone"}
           description={"Diseño web realizado para estudio de grabación de música urbana"}
@@ -40,16 +52,6 @@ function ProjectsContainer() {
             mobile: urbanImageMobile,
             tablet: urbanImageTablet,
             desktop: urbanImageDesktop
-          }}
-        />
-        <Project 
-          title={"CUPTI Ingeniería"}
-          description={"Proyecto web realizado para empresa dedicada a brindar soluciones en energías renovables, eficiencia energética y diseño industrial"}
-          type={"DISEÑO WEB"}
-          images={{
-            mobile: cuptiImageMobile,
-            tablet: cuptiImageTablet,
-            desktop: cuptiImageDesktop
           }}
         />
     </ul>
