@@ -11,7 +11,7 @@ function Home() {
       {/* ======== HEADER ========== */}
       <header className='header container--flex container--column'>
       <div className='header__container container--flex container--fill-x container--between animation--show-from-top'>
-      <a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>LINKEDIN</a>
+      <a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>LINKEDIN AQUÍ</a>
         <NavBar />  
       </div>
         {/* ======== HERO ========== */}
