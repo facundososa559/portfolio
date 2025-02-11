@@ -30,3 +30,8 @@
   box-shadow: #2f2f2f 0px 2px 0 0;
   transform: translate(0px, 2px);
 }
+
+.button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}

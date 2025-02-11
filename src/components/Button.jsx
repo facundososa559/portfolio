@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button({content}) {
+function Button({content, onClick, disabled}) {
   return (
-    <button className='button animation--fade-in-slow'>
+    <button className='button animation--fade-in-slow' onClick={onClick} disabled={disabled}>
       {content}
     </button>
   )

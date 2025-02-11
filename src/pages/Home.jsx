@@ -11,7 +11,7 @@ function Home() {
       {/* ======== HEADER ========== */}
       <header className='header container--flex container--column'>
       <div className='header__container container--flex container--fill-x container--between animation--show-from-top'>
-        <h1 className='header-title'>FACU</h1>  
+      <a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>LINKEDIN</a>
         <NavBar />  
       </div>
         {/* ======== HERO ========== */}
@@ -76,7 +76,7 @@ function Home() {
       <footer className='footer container--flex container--between'>
         <ul className='social container--flex'>
           {/* <li><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>BEHANCE</a></li> */}
-          <li><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>LINKEDIN</a></li>
+          <li><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>LINKEDIN AQUÍ</a></li>
         </ul>
         <span>&copy; 2025</span>
       </footer>
