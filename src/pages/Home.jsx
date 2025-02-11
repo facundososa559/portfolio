@@ -19,8 +19,8 @@ function Home() {
           <div className='hero__container container--flex container--column text--align-center'>
             <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
             <h1 className='heading semi-bold'>Transformo visitas en clientes que generan dinero.</h1>
-            <p>Dirijo tu tráfico a un sitio web optimizado para convertir clientes. Te ayudo a entender tu embudo de ventas y construyo el lugar donde vas a vender tus productos y servicios.</p>
-            <p>Podemos agendar una reunión de 15 minutos donde te doy una consultoría gratis en la que te explico como mejorar tu proceso de ventas, y si te interesa, empezamos a construir tu proyecto.</p>
+            <p>Dirijo tu tráfico a un sitio web optimizado para convertir visitas en clientes. Construyo el lugar donde vas a vender tus productos y servicios.</p>
+            <p>Te ofrezco una consultoría gratis de 15 minutos donde te explico como mejorar tu proceso de ventas, y si te interesa, empezamos a construir tu proyecto.</p>
             <CallToAction />
           </div>
         </section>     
@@ -34,7 +34,7 @@ function Home() {
 
         {/* ======== FAQ ========== */}
         <section id='faq' className='container faq'>
-        <h4 className='subheading semi-bold'>Preguntas Frecuentes</h4>
+        <h4 className='subheading subheading--spaced-bottom semi-bold'>Preguntas Frecuentes</h4>
           <Accordion 
                 header={<h1 className='regular'>¿Esto es un servicio de marketing o un servicio web?</h1>} 
                 content={"Esto es un servicio completo. Lo único que te cobro es el diseño y desarrollo de tu web teniendo en cuenta tu presupuesto. Pero me gusta darle a mis clientes herramientas de marketing y branding gratuitas necesarias para entender lo que están haciendo con su negocio y sacar el máximo provecho a este servicio."}
@@ -62,13 +62,13 @@ function Home() {
 
         {/* ========= NEWSLETTER ========== */}
         <section className='container container--small'>
-          <h4 className='subheading text--align-center semi-bold'>Déjame tu e-mail si te interesa recibir tips semanales con herramientas de branding, marketing y copywriting.</h4>
+          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Déjame tu e-mail si te interesa recibir tips semanales con herramientas de branding, marketing y copywriting.</h4>
           <NewsletterForm />
         </section>
 
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
-          <h4 className='subheading text--align-center semi-bold'>Si te interesa trabajar conmigo agendemos una reunión por el canal que prefieras y coordinamos.</h4>
+          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Si te interesa trabajar conmigo agendemos una reunión por el canal que prefieras y coordinamos.</h4>
           <CallToAction />
         </section>
       </main>

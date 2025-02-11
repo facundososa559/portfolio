@@ -24,11 +24,10 @@
 .subheading {
     line-height: 32px;
     font-size: 1.75rem;
-    margin-bottom: 24px;
 }
 
-.subheading--small {
-    font-size: 1.25rem;
+.subheading--spaced-bottom {
+    margin-bottom: 24px;
 }
 
 .letter-spacing {
