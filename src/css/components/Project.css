@@ -4,11 +4,12 @@
 }
 
 .projects div {
-    gap: 8px;
+    row-gap: 8px;
 }
 
 .project__description {
     display: none;
+    
 }
 
 .project__type {

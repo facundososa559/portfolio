@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     .call-to-action {
         flex-direction: row;
     }

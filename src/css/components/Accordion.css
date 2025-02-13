@@ -3,6 +3,10 @@
     margin-bottom: 16px;
 }
 
+.accordion__header {
+    gap: 24px;
+}
+
 .accordion__body {
     overflow: hidden;
     border-radius: 12px;
