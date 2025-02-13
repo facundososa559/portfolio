@@ -23,7 +23,7 @@ function ProjectsContainer() {
     <ul className='projects container--flex container--column'>
         <Project 
           title={"CUPTI Ingeniería"}
-          description={"CUPTI es una empresa dedicada a brindar soluciones en energías renovables, eficiencia energética y diseño industrial que está buscando cambiar toda la imagen de la empresa. Actualmente estoy trabajando en este proyecto."}
+          description={"CUPTI es una empresa dedicada a brindar soluciones en energías renovables, eficiencia energética y diseño industrial que está buscando cambiar toda la imagen de su empresa. Actualmente estoy trabajando en este proyecto."}
           type={"DISEÑO WEB"}
           images={{
             mobile: cuptiImageMobile,
@@ -34,7 +34,7 @@ function ProjectsContainer() {
 
         <Project 
           title={"Active Sports"}
-          description={"Active Sports es una marca dedicada a vender suplementos deportivos que logró hacer crecer su cuenta de Instagram, y ahora necesita un sitio a donde dirigir esos seguidores para aumentar sus ventas."}
+          description={"Active Sports es una marca dedicada a vender suplementos deportivos que necesita un sitio a donde dirigir sus seguidores para aumentar sus ventas."}
           type={"DISEÑO WEB"}
           images={{
             mobile: activeImageMobile,
@@ -46,7 +46,7 @@ function ProjectsContainer() {
         
         <Project 
           title={"Urban Zone"}
-          description={"Proyecto personal donde busqué fusionar una estética punk con una estética urbana."}
+          description={"Urban Zone es un proyecto personal donde busqué fusionar una estética punk con una estética urbana."}
           type={"DISEÑO WEB"}
           images={{
             mobile: urbanImageMobile,

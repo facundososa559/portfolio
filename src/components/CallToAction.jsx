@@ -20,8 +20,8 @@ function CallToAction() {
 
   return (
     <div className='call-to-action container--flex container--wrap container--center'>
-      <Button content="Agendemos reunión por e-mail" onClick={handleEmailClick} />
-      <Button content="Agendemos reunión por WhatsApp" onClick={handleWhatsAppClick} />
+      <Button content="Agendar consultoría por e-mail" onClick={handleEmailClick} />
+      <Button content="Agendar consultoría por WhatsApp" onClick={handleWhatsAppClick} />
     </div>
   );
 }

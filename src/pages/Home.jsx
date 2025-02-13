@@ -18,9 +18,9 @@ function Home() {
         <section className='hero container--small container--flex container--center'>
           <div className='hero__container container--flex container--column text--align-center'>
             <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
-            <h1 className='heading semi-bold'>Transformo visitas en clientes que generan dinero.</h1>
+            <h1 className='heading semi-bold'>Te ayudo a transformar tus visitas en clientes reales.</h1>
             <p>Dirijo tu tráfico a un sitio web optimizado para convertir visitas en clientes. Construyo el lugar donde vas a vender tus productos y servicios.</p>
-            <p>Te ofrezco una consultoría gratis de 15 minutos donde te explico como mejorar tu proceso de ventas, y si te interesa, empezamos a construir tu proyecto.</p>
+            <p>Si te interesa, te ofrezco una consultoría gratuita de 15 minutos donde te explico como mejorar tu embudo de ventas y empezamos a construir tu proyecto.</p>
             <CallToAction />
           </div>
         </section>     
@@ -38,6 +38,10 @@ function Home() {
           <Accordion 
                 header={<h1 className='regular'>¿Esto es un servicio de marketing o un servicio web?</h1>} 
                 content={"Esto es un servicio completo. Lo único que te cobro es el diseño y desarrollo de tu web teniendo en cuenta tu presupuesto. Pero me gusta darle a mis clientes herramientas de marketing y branding gratuitas necesarias para entender lo que están haciendo con su negocio y sacar el máximo provecho a este servicio."}
+          />
+          <Accordion 
+                header={<h1 className='regular'>¿Cuánto me va a costar este servicio?</h1>} 
+                content={"Depende del tipo de proyecto que estés buscando construir y del trabajo que eso conlleve. Una landing page simple puede costar entre unos U$D100 y U$D300, mientras que una tienda donde vas a ofrecer un catálogo de productos puede costar entre U$D300 y U$D600. De todas maneras, siempre analizo el tipo de proyecto y tengo en cuenta el presupuesto de mi cliente para hacer un trabajo más efectivo, por lo que estos precios no suelen ser fijos."}
           />
           <Accordion 
               header={<h1 className='regular'>¿Cómo es el proceso de creación y cómo vamos a trabajar?</h1>} 
@@ -68,7 +72,7 @@ function Home() {
 
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
-          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Si te interesa trabajar conmigo agendemos una reunión por el canal que prefieras y coordinamos.</h4>
+          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Si te interesa trabajar conmigo agendemos una reunión en la que te explico en qué posición se encuentra tu negocio y mis recomendaciones para seguir creciendo. Elige el canal que prefieras y coordinamos.</h4>
           <CallToAction />
         </section>
       </main>
@@ -76,7 +80,7 @@ function Home() {
       <footer className='footer container--flex container--between'>
         <ul className='social container--flex'>
           {/* <li><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>BEHANCE</a></li> */}
-          <li><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>LINKEDIN AQUÍ</a></li>
+          <li><a href="https://www.linkedin.com/in/facundodelvalle/" target="_blank" rel='noreferrer'>LINKEDIN AQUÍ</a></li>
         </ul>
         <span>&copy; 2025</span>
       </footer>
