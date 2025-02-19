@@ -1,17 +1,14 @@
 import './App.css';
-import { useEffect, useState } from 'react';
-import Intro from './pages/Intro';
+import { useEffect } from 'react';
+import { initGA, logPageView } from "./components/Analytics";
 import Home from './pages/Home';
 
 function App() {
-  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 1700)
-  }, [])
+    initGA(); // Inicializa Google Analytics
+    logPageView(); // Registra la primera vista de página
+  }, []);
 
   return (
     <div className='app-container'>

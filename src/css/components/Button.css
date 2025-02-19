@@ -2,8 +2,8 @@
 
 .button {
   font-family: Outfit, sans-serif;
-  font-size: inherit;
-  font-weight: 300;
+  font-size: 0.9rem;
+  font-weight: 400;
   border: 1.5px solid #2f2f2f;
   border-radius: 30px;
   box-shadow: #2f2f2f 0px 3px 0 0;
