@@ -48,10 +48,7 @@ function Home() {
               header={<h1 className='regular'>Una vez que terminamos el proyecto, ¿Cómo seguimos?</h1>} 
               content={"Voy a enseñarte estrategias para que puedas dirigir tráfico hacia ella. Vas a aprender a utilizar los datos arrojados para que puedas ajustar aún más tu propuesta y te voy a enseñar pasos simples para medir la conversión y encontrar puntos de mejora para seguir haciendo crecer tu negocio y tus resultados."}
           />
-          <Accordion 
-                header={<h1 className='regular'>¿Cuánto me puede costar adquirir este servicio?</h1>} 
-                content={"Depende del tipo de proyecto que estés buscando construir y del trabajo que eso conlleve. Una landing page simple puede costar entre unos U$D100 y U$D300, mientras que una tienda donde vas a ofrecer un catálogo de productos puede costar entre U$D300 y U$D600. De todas maneras, siempre analizo el tipo de proyecto y tengo en cuenta el presupuesto de mi cliente para hacer un trabajo más efectivo, por lo que estos precios no suelen ser fijos."}
-          />
+          
           <Accordion 
               header={<h1 className='regular'>¿Qué rol cumple este servicio en mi negocio?</h1>} 
               content={"Seguramente ya cuentes con tráfico generado a través de redes sociales o haciendo marketing tradicional. Con esta herramienta vas a poder dirigir ese tráfico a un lugar donde vas a medir el interés de esos clientes potenciales para transformarlos en clientes reales. También vas a aumentar la confianza en tus productos o servicios."}
@@ -62,6 +59,10 @@ function Home() {
               content={"Es la herramienta de marketing que voy a utilizar para entender y potenciar tu negocio. Explica el proceso de compra de un cliente, y maneja cuatro aspectos fundamentales: atracción, interacción, deseo y acción."}
           />
           
+          <Accordion 
+                header={<h1 className='regular'>¿Cuánto me puede costar adquirir este servicio?</h1>} 
+                content={"Depende del tipo de proyecto que estés buscando construir y del trabajo que eso conlleve. Una landing page simple puede costar entre unos U$D100 y U$D300, mientras que una tienda donde vas a ofrecer un catálogo de productos puede costar entre U$D300 y U$D600. De todas maneras, siempre analizo el tipo de proyecto y tengo en cuenta el presupuesto de mi cliente para hacer un trabajo más efectivo, por lo que estos precios pueden variar."}
+          />
           
         </section>
 
