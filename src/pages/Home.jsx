@@ -18,7 +18,7 @@ function Home() {
         <section className='hero container--small container--flex container--center'>
           <div className='hero__container container--flex container--column text--align-center'>
             <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
-            <h1 className='heading semi-bold'>Te ayudo a transformar tus visitas en clientes reales.</h1>
+            <h1 className='heading semi-bold'>Te ayudo a transformar visitas en clientes reales.</h1>
             <p>Construyo el lugar donde vas a vender tus productos y servicios. Dirijo tu tráfico a un sitio web optimizado para convertir visitas en clientes.</p>
             <p>Si necesitás más información, hacé click en cualquiera de las opciones de acá abajo. Te envío todos los detalles, analizamos la propuesta y empezamos a construir tu proyecto.</p>
             <CallToAction />
