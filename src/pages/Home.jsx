@@ -19,8 +19,8 @@ function Home() {
           <div className='hero__container container--flex container--column text--align-center'>
             <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
             <h1 className='heading semi-bold'>Te ayudo a transformar tus visitas en clientes reales.</h1>
-            <p>Dirijo tu tráfico a un sitio web optimizado para convertir visitas en clientes. Construyo el lugar donde vas a vender tus productos y servicios.</p>
-            <p>Si necesitás más información, hacé click en cualquiera de los botones de acá abajo. Primero te explico como mejorar tu embudo de ventas y después empezamos a construir tu proyecto.</p>
+            <p>Construyo el lugar donde vas a vender tus productos y servicios. Dirijo tu tráfico a un sitio web optimizado para convertir visitas en clientes.</p>
+            <p>Si necesitás más información, hacé click en cualquiera de las opciones de acá abajo. Te envío todos los detalles, analizamos la propuesta y empezamos a construir tu proyecto.</p>
             <CallToAction />
           </div>
         </section>     
@@ -37,7 +37,7 @@ function Home() {
         <h4 className='subheading subheading--spaced-bottom semi-bold'>Preguntas Frecuentes</h4>
           <Accordion 
                 header={<h1 className='regular'>¿Esto es un servicio de marketing o un servicio web?</h1>} 
-                content={"Esto es un servicio completo. Lo único que te cobro es el diseño y desarrollo de tu web teniendo en cuenta tu presupuesto. Pero me gusta darle a mis clientes herramientas de marketing y branding gratuitas necesarias para entender lo que están haciendo con su negocio y sacar el máximo provecho a este servicio."}
+                content={"Esto es un servicio completo, pero lo único que te cobro es el diseño y desarrollo de tu web teniendo en cuenta tu presupuesto. Me gusta darle a mis clientes herramientas de marketing y branding gratuitas necesarias para entender lo que están haciendo con su negocio y sacar el máximo provecho a este servicio."}
           />
           
           <Accordion 
@@ -54,29 +54,30 @@ function Home() {
               content={"Seguramente ya cuentes con tráfico generado a través de redes sociales o haciendo marketing tradicional. Con esta herramienta vas a poder dirigir ese tráfico a un lugar donde vas a medir el interés de esos clientes potenciales para transformarlos en clientes reales. También vas a aumentar la confianza en tus productos o servicios."}
           />
 
-          <Accordion 
+          {/* <Accordion 
               header={<h1 className='regular'>¿Qué es un embudo de ventas?</h1>} 
               content={"Es la herramienta de marketing que voy a utilizar para entender y potenciar tu negocio. Explica el proceso de compra de un cliente, y maneja cuatro aspectos fundamentales: atracción, interacción, deseo y acción."}
-          />
+          /> */}
           
           <Accordion 
-                header={<h1 className='regular'>¿Cuánto me puede costar adquirir este servicio?</h1>} 
-                content={"Depende del tipo de proyecto que estés buscando construir y del trabajo que eso conlleve. Una landing page simple puede costar entre unos U$D100 y U$D300, mientras que una tienda donde vas a ofrecer un catálogo de productos puede costar entre U$D300 y U$D600. De todas maneras, siempre analizo el tipo de proyecto y tengo en cuenta el presupuesto de mi cliente para hacer un trabajo más efectivo, por lo que estos precios pueden variar."}
+                header={<h1 className='regular'>¿Cuánto cuesta adquirir este servicio?</h1>} 
+                content={"Depende del tipo de proyecto que estés buscando construir y del trabajo que eso conlleve. Una landing page simple puede costar entre unos U$D100 y U$D300, mientras que una tienda que ofrezca un catálogo de productos puede costar entre U$D300 y U$D600. De todas maneras, siempre analizo el tipo de proyecto y tengo en cuenta el presupuesto de mi cliente para hacer un trabajo más efectivo, por lo que estos precios pueden variar."}
           />
           
-        </section>
-
-        {/* ========= NEWSLETTER ========== */}
-        <section className='container container--small'>
-          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Dejame tu e-mail si te interesa recibir tips semanales con herramientas de branding, marketing y copywriting.</h4>
-          <NewsletterForm />
         </section>
 
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
-          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Si te interesa trabajar conmigo, podés hacer click en cualquiera de los botones de acá abajo. Te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
+          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>¿Te interesa trabajar conmigo? Si hacés click en cualquiera de los botones de acá abajo te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
           <CallToAction />
         </section>
+
+        {/* ========= NEWSLETTER ========== */}
+        <section className='container container--small'>
+          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Para recibir tips semanales con herramientas de branding, marketing y copywriting, completa este formulario.</h4>
+          <NewsletterForm />
+        </section>
+
       </main>
       
       <footer className='footer container--flex container--between'>

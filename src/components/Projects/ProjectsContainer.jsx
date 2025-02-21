@@ -23,7 +23,7 @@ function ProjectsContainer() {
     <ul className='projects container--flex container--column'>
         <Project 
           title={"CUPTI Ingeniería"}
-          description={"CUPTI es una empresa dedicada a brindar soluciones en energías renovables, eficiencia energética y diseño industrial que está buscando cambiar toda la imagen de su empresa. Actualmente estoy trabajando en este proyecto."}
+          description={"CUPTI es una empresa de ingeniería que está buscando cambiar toda su imagen empresarial. Actualmente estoy trabajando en este proyecto."}
           type={"DISEÑO WEB"}
           images={{
             mobile: cuptiImageMobile,
@@ -41,7 +41,6 @@ function ProjectsContainer() {
             tablet: activeImageTablet,
             desktop: activeImageDesktop
           }}
-          link="https://www.instagram.com/activesport.suplementos/"
         />
         
         <Project 
