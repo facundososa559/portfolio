@@ -30,7 +30,7 @@ function CallToAction() {
   return (
     <div className='call-to-action container--flex container--wrap container--center'>
       <Button content="Quiero recibir información vía e-mail" onClick={handleEmailClick} />
-      <Button content="Quiero recibir información vía whatsApp" onClick={handleWhatsAppClick} />
+      <Button content="Quiero recibir información vía whatsapp" onClick={handleWhatsAppClick} />
     </div>
   );
 }
