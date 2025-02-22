@@ -20,7 +20,7 @@ function Home() {
             <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
             <h1 className='heading semi-bold'>Atrae visitas. Genera impacto. Transforma en clientes.</h1>
             <p>Construyo sitios web optimizados para vender productos y servicios. Dirige tu público al lugar donde vas a convertir visitas en clientes.</p>
-            <p>Si necesitás más información, hacé click en cualquiera de las opciones de acá abajo, que te envío todos los detalles para empezar a construir tu proyecto.</p>
+            <p>Si necesitas más información, haz clic en cualquiera de las opciones de acá abajo, que te envío todos los detalles para empezar a construir tu proyecto.</p>
             <CallToAction />
           </div>
         </section>     
@@ -68,7 +68,7 @@ function Home() {
 
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
-          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>¿Te interesa trabajar conmigo? Si hacés click en cualquiera de los botones de acá abajo te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
+          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>¿Te interesa trabajar conmigo? Si haces click en cualquiera de los botones de acá abajo, te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
           <CallToAction />
         </section>
 
