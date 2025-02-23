@@ -30,6 +30,7 @@ function ProjectsContainer() {
             tablet: cuptiImageTablet,
             desktop: cuptiImageDesktop
           }}
+          link={"https://www.figma.com/proto/TJAU0OsxV3JbK42u2g6Wqd/CUPTI---WEB?node-id=360-350&p=f&t=rV03M3t8E2sPLvbr-0&scaling=min-zoom&content-scaling=fixed&page-id=360%3A349"}
         />
 
         <Project 
