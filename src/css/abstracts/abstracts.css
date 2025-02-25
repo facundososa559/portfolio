@@ -16,7 +16,7 @@ body {
     z-index: -1;
     width: 200%;
     height: auto;
-    background: transparent url("../../assets/noise-2.png");
+    background: transparent url("../../assets/noise-1.png");
     background-repeat: repeat;
     animation: bg-animation .7s steps(5) infinite;
     opacity: .5;
