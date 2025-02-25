@@ -20,7 +20,7 @@ function Home() {
             <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
             <h1 className='heading semi-bold'>Construyo sitios web que aumentan el valor de tu negocio.</h1>
             <p>Diseño, desarrollo y optimizo sitios web para que tus clientes tengan la oportunidad de conocer y adquirir tus productos o servicios, de manera rápida, directa y efectiva.</p>
-            <p>Para conocer los precios de las ofertas que se adaptan a tu negocio, haz clic en cualquiera de las opciones de acá abajo, que te envío detallado en diferentes paquetes cómo puedo ayudarte.</p>
+            <p>Para conocer los precios de las ofertas que se adaptan a tu negocio, haz clic en cualquiera de las opciones de acá abajo, que te envío los detalles en diferentes packs de servicios que puedes adquirir.</p>
             <CallToAction />
           </div>
         </section>     
