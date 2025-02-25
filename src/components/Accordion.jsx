@@ -60,7 +60,7 @@ function Accordion({header, content, type, images = {}, alt, link}) {
                 className="accordion__body--img"
               />
 
-              <div className='accordion__button-container container--flex container--center container--fill-x'><Button content="Ver diseño en otra pestaña" onClick={() => window.open(link, "_blank")} /></div>
+              <div className='accordion__button-container container--flex container--center container--fill-x'><Button content="Ver diseño para pc en otra pestaña" onClick={() => window.open(link, "_blank")} /></div>
             </a>
           )}
         
