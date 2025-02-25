@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../components/Button'
 
-function CallToAction() {
+function CallToAction({content1, content2}) {
   const handleEmailClick = () => {
     const email = "facundodelvalle559@gmail.com";
     const subject = "Consulta sobre servicios";
@@ -29,8 +29,8 @@ function CallToAction() {
 
   return (
     <div className='call-to-action container--flex container--wrap container--center'>
-      <Button content="Quiero recibir packs vía e-mail" onClick={handleEmailClick} />
-      <Button content="Quiero recibir packs vía whatsapp" onClick={handleWhatsAppClick} />
+      <Button content={content1} onClick={handleEmailClick} />
+      <Button content={content2} onClick={handleWhatsAppClick} />
     </div>
   );
 }

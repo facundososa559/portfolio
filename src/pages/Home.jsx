@@ -4,6 +4,7 @@ import Accordion from '../components/Accordion'
 import CallToAction from '../components/CallToAction'
 import NavBar from '../components/NavBar'
 import ProjectsContainer from '../components/Projects/ProjectsContainer'
+import AnimatedElement from '../components/AnimatedElement'
 
 function Home() {
   return (
@@ -16,48 +17,64 @@ function Home() {
       </div>
         {/* ======== HERO ========== */}
         <section className='hero container--small container--flex container--center'>
+            <AnimatedElement delay={0.5}>
           <div className='hero__container container--flex container--column text--align-center'>
             <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
             <h1 className='heading semi-bold'>Construyo sitios web que aumentan el valor de tu negocio.</h1>
-            <p>Diseño, desarrollo y optimizo sitios web para que tus clientes tengan la oportunidad de conocer y adquirir tus productos o servicios, de manera rápida, directa y efectiva.</p>
-            <p>Para conocer los precios de las ofertas que se adaptan a tu negocio, haz clic en cualquiera de las opciones de acá abajo, que te envío los detalles en diferentes packs de servicios que puedes adquirir.</p>
-            <CallToAction />
+            <p>Diseño, desarrollo y optimizo sitios web para que tus clientes tengan la oportunidad de conocer más, sobre el valor de tus productos/servicios, y puedan adquirirlos de manera rápida, directa y efectiva.</p>
+            <p>Haciendo clic en cualquiera de las opciones de acá abajo, te envío los precios de los diferentes packs de servicios, para que elijas cuál se adapta mejor a tu negocio.</p>
+              <CallToAction 
+                content1="Quiero recibir packs por e-mail"
+                content2="Quiero recibir packs por whatsapp"
+              />
           </div>
+            </AnimatedElement>
         </section>     
       </header>
 
       <main className='main-content container--flex container--column'>
         {/* ======== PROJECTS ========== */}
         <section id='projects' className='container'>
+          <h4 className='subheading subheading--spaced-bottom medium text--align-center'>Proyectos Destacados</h4> 
           <ProjectsContainer />
         </section>
 
         {/* ======== FAQ ========== */}
         <section id='faq' className='container faq'>
-        <h4 className='subheading subheading--spaced-bottom semi-bold'>Preguntas Frecuentes</h4>
+        <h4 className='subheading subheading--spaced-bottom medium'>Preguntas Frecuentes</h4>
+        <AnimatedElement>
           <Accordion 
               header={<h1 className='regular'>¿Qué rol cumple este servicio en mi negocio?</h1>} 
               content={"Seguramente ya generaste visitas a tu negocio a través de redes sociales o haciendo marketing tradicional. Con esta nueva herramienta vas a poder dirigir esas visitas a un lugar donde vas a aumentar la confianza y el valor de tus productos o servicios, para que esas visitas se transformen en clientes o en ventas."}
-          />
-
+          />          
+        </AnimatedElement>
+        <AnimatedElement>
           <Accordion 
                 header={<h1 className='regular'>¿Esto es un servicio completo o solo un servicio web?</h1>} 
                 content={"Esto es un servicio completo, pero lo único que te cobro es el diseño y desarrollo de tu web teniendo en cuenta tu presupuesto. Me gusta darle a mis clientes herramientas de marketing y branding gratuitas necesarias para entender lo que están haciendo con su negocio y sacar el máximo provecho a este servicio."}
           />
-          
+        </AnimatedElement>
+        <AnimatedElement>
           <Accordion 
               header={<h1 className='regular'>¿Cómo es el proceso de creación y cómo vamos a trabajar?</h1>} 
               content={"Evalúo el estado de tu negocio y planifico una estrategia acorde a tus objetivos para empezar a construir un sitio web optimizado que convierte tráfico en clientes. Subo tu web a internet y luego te asesoro sobre como sacarle el máximo partido a esta herramienta."}
           />
+        </AnimatedElement>
+        <AnimatedElement>
           <Accordion 
               header={<h1 className='regular'>Una vez que terminamos el proyecto, ¿Cómo seguimos?</h1>} 
               content={"Voy a enseñarte estrategias para que puedas dirigir personas hacia ella. Vas a aprender a utilizar los datos arrojados para que puedas ajustar aún más tu propuesta y te voy a enseñar pasos simples para medir la conversión y encontrar puntos de mejora en tu negocio que te van a permitir seguir creciendo y aumentar aun más tus resultados."}
           />
-
+        </AnimatedElement>
+        <AnimatedElement>
           <Accordion 
               header={<h1 className='regular'>¿Qué es un embudo de ventas?</h1>} 
               content={"Es la herramienta de marketing que voy a utilizar para entender y potenciar tu negocio. Explica el proceso de compra de un cliente, y maneja cuatro aspectos fundamentales: atracción, interacción, deseo y acción."}
           />
+        </AnimatedElement>
+
+          
+
           
           {/* <Accordion 
                 header={<h1 className='regular'>¿Cuánto cuesta adquirir este servicio?</h1>} 
@@ -68,25 +85,33 @@ function Home() {
 
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
-          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>¿Te interesa trabajar conmigo? Si haces click en cualquiera de los botones de acá abajo, te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
-          <CallToAction />
-        </section>
+          <AnimatedElement>
+            <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>¿Te interesa trabajar conmigo? Si haces click en cualquiera de los botones de acá abajo, te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
+            <CallToAction 
+              content1="Quiero recibir información por e-mail"
+              content2="Quiero recibir información por whatsapp"
+            />
+          </AnimatedElement>
+        </section>   
 
         {/* ========= NEWSLETTER ========== */}
         <section className='container container--small'>
-          <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Para recibir tips semanales con herramientas de branding, marketing y copywriting, completa este formulario.</h4>
-          <NewsletterForm />
+          <AnimatedElement>
+            <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Para recibir tips semanales con herramientas de branding, marketing y copywriting, completa este formulario.</h4>
+            <NewsletterForm />
+          </AnimatedElement>
         </section>
-
       </main>
       
-      <footer className='footer container--flex container--between'>
-        <ul className='social container--flex'>
-          {/* <li><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>BEHANCE</a></li> */}
-          <li><a href="https://www.linkedin.com/in/facundodelvalle/" target="_blank" rel='noreferrer'>LINKEDIN AQUÍ</a></li>
-        </ul>
-        <span>&copy; 2025</span>
-      </footer>
+      
+        <footer className='footer container--flex container--between'>
+          <ul className='social container--flex'>
+            {/* <li><a href="https://www.linkedin.com/in/facundososa676/" target="_blank" rel='noreferrer'>BEHANCE</a></li> */}
+            <li><a href="https://www.linkedin.com/in/facundodelvalle/" target="_blank" rel='noreferrer'>LINKEDIN AQUÍ</a></li>
+          </ul>
+          <span>&copy; 2025</span>
+        </footer>
+    
     </div>
   )
 }

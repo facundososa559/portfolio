@@ -17,10 +17,12 @@ import activeImageTablet from "../../assets/projects/active-sports/active-sports
 import urbanImageDesktop from "../../assets/projects/urban-zone/urban-zone-hero-desktop.png"
 import urbanImageMobile from "../../assets/projects/urban-zone/urban-zone-hero-mobile.png"
 import urbanImageTablet from "../../assets/projects/urban-zone/urban-zone-hero-tablet.png"
+import AnimatedElement from '../AnimatedElement'
 
 function ProjectsContainer() {
   return (
-    <ul className='projects container--flex container--column'>
+    <div className='projects container--flex container--column'>
+      <AnimatedElement>
         <Project 
           title={"CUPTI Ingeniería"}
           description={"CUPTI es una empresa de ingeniería que está buscando cambiar toda su imagen empresarial. Actualmente estoy trabajando en este proyecto."}
@@ -32,19 +34,23 @@ function ProjectsContainer() {
           }}
           link={"https://www.figma.com/proto/TJAU0OsxV3JbK42u2g6Wqd/CUPTI---WEB?node-id=360-350&p=f&t=rV03M3t8E2sPLvbr-0&scaling=min-zoom&content-scaling=fixed&page-id=360%3A349"}
         />
-
-        <Project 
-          title={"Active Sports"}
-          description={"Active Sports es una marca dedicada a vender suplementos deportivos que necesita un sitio a donde dirigir sus seguidores para aumentar sus ventas."}
-          type={"DISEÑO WEB"}
-          images={{
-            mobile: activeImageMobile,
-            tablet: activeImageTablet,
-            desktop: activeImageDesktop
-          }}
-          link={"https://www.figma.com/proto/UgLMBH8ulc2zgLUHJ1ZMLp/FITNESS-WEB?node-id=56-25&t=x0EgKso9jJBFkvNT-1&scaling=min-zoom&content-scaling=fixed&page-id=56%3A2"}
-        />
+      </AnimatedElement>
         
+      <AnimatedElement>
+        <Project 
+            title={"Active Sports"}
+            description={"Active Sports es una marca dedicada a vender suplementos deportivos que necesita un sitio a donde dirigir sus seguidores para aumentar sus ventas."}
+            type={"DISEÑO WEB"}
+            images={{
+              mobile: activeImageMobile,
+              tablet: activeImageTablet,
+              desktop: activeImageDesktop
+            }}
+            link={"https://www.figma.com/proto/UgLMBH8ulc2zgLUHJ1ZMLp/FITNESS-WEB?node-id=56-25&t=x0EgKso9jJBFkvNT-1&scaling=min-zoom&content-scaling=fixed&page-id=56%3A2"}
+        />
+      </AnimatedElement>
+        
+      <AnimatedElement>
         <Project 
           title={"Urban Zone"}
           description={"Urban Zone es un proyecto personal donde busqué fusionar una estética punk con una estética urbana."}
@@ -56,7 +62,8 @@ function ProjectsContainer() {
           }}
           link={"https://www.figma.com/proto/cLoU87Kag19GeTCnlOmBSn/URBAN-STUDIOS?node-id=42-2&t=Jyvy71jPemWp6qL1-1&scaling=min-zoom&content-scaling=fixed&page-id=4%3A2"}
         />
-    </ul>
+      </AnimatedElement>
+    </div>
   )
 }
 

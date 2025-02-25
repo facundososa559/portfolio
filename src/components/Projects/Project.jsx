@@ -8,7 +8,7 @@ function Project({title, description, type, images = {}, link}) {
     <Accordion 
       header={
         <div className='project__header container--flex container--column'>
-          <h2 className='subheading medium'>{title}</h2>
+          <h2 className='title medium'>{title}</h2>
           <p className='project__description'>{description}</p>
           <span className='project__type'>{type}</span>
         </div>

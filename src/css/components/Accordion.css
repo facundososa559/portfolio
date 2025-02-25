@@ -20,14 +20,6 @@
     border-radius: 12px;
 }
 
-.accordion__body--link {
-    position: relative;
-}
-
-.accordion__button-container {
-    position: relative;
-}
-
 .accordion__button-container button {
     margin-bottom: 12px;
 }
