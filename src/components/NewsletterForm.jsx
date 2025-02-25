@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Input from './Input';
 import Button from './Button';
+import AnimatedElement from './AnimatedElement';
 
 function NewsletterForm() {
   const [formData, setFormData] = useState({
@@ -50,23 +51,29 @@ function NewsletterForm() {
   return (
     <div>
       <form id='newsletter' className='newsletter-form container--flex container--column' onSubmit={sendEmail} autoComplete="off">
-        <Input
-          label={"Nombre*"}
-          type={"text"}
-          name={"user_name"}
-          value={formData.user_name}
-          onChange={handleChange}
-        />
-        <Input
-          label={"E-mail*"}
-          type={"email"}
-          name={"user_email"}
-          value={formData.user_email}
-          onChange={handleChange}
-        />
-        <div className='container--flex container--center container--fill-x'>
-          <Button content={isLoading ? "Enviando..." : "Suscribirse a Newsletter"} disabled={isLoading} />
-        </div>
+        <AnimatedElement>
+          <Input
+            label={"Nombre*"}
+            type={"text"}
+            name={"user_name"}
+            value={formData.user_name}
+            onChange={handleChange}
+          />
+        </AnimatedElement>
+        <AnimatedElement delay={0.1}>
+          <Input
+            label={"E-mail*"}
+            type={"email"}
+            name={"user_email"}
+            value={formData.user_email}
+            onChange={handleChange}
+          />
+        </AnimatedElement>
+        <AnimatedElement>
+          <div className='container--flex container--center container--fill-x'>
+            <Button content={isLoading ? "Enviando..." : "Suscribirse a Newsletter"} disabled={isLoading} />
+          </div>
+        </AnimatedElement>
       </form>
 
       {errorMessage && <p className="error-message">{errorMessage}</p>}

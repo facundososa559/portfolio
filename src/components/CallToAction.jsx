@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../components/Button'
+import AnimatedElement from './AnimatedElement';
 
 function CallToAction({content1, content2}) {
   const handleEmailClick = () => {
@@ -28,10 +29,12 @@ function CallToAction({content1, content2}) {
   };
 
   return (
-    <div className='call-to-action container--flex container--wrap container--center'>
-      <Button content={content1} onClick={handleEmailClick} />
-      <Button content={content2} onClick={handleWhatsAppClick} />
-    </div>
+    <AnimatedElement>
+      <div className='call-to-action container--flex container--wrap container--center'>
+        <Button content={content1} onClick={handleEmailClick} />
+        <Button content={content2} onClick={handleWhatsAppClick} />
+      </div>
+    </AnimatedElement>
   );
 }
 

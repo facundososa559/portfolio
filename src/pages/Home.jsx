@@ -17,31 +17,42 @@ function Home() {
       </div>
         {/* ======== HERO ========== */}
         <section className='hero container--small container--flex container--center'>
-            <AnimatedElement delay={0.5}>
-          <div className='hero__container container--flex container--column text--align-center'>
-            <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
-            <h1 className='heading semi-bold'>Construyo sitios web que aumentan el valor de tu negocio.</h1>
-            <p>Diseño, desarrollo y optimizo sitios web para que tus clientes tengan la oportunidad de conocer más, sobre el valor de tus productos/servicios, y que puedan adquirirlos de manera rápida, directa y efectiva.</p>
-            <p>Haciendo clic en cualquiera de las opciones de acá abajo, te envío los precios de los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio.</p>
-              <CallToAction 
-                content1="Quiero recibir packs por e-mail"
-                content2="Quiero recibir packs por whatsapp"
-              />
-          </div>
-            </AnimatedElement>
+            <div className='hero__container container--flex container--column text--align-center'>
+              <AnimatedElement delay={0.1}>
+                <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
+              </AnimatedElement>
+              <AnimatedElement delay={0.2}>
+                <h1 className='heading semi-bold'>Construyo sitios web que aumentan el valor de tu negocio.</h1>
+              </AnimatedElement>
+              <AnimatedElement delay={0.3}>
+                <p>Diseño, desarrollo y optimizo sitios web para que tus clientes tengan la oportunidad de conocer más, sobre el valor de tus productos/servicios, y que puedan adquirirlos de manera rápida, directa y efectiva.</p>
+              </AnimatedElement>
+              
+              <AnimatedElement delay={0.4}>
+                <p>Haciendo clic en cualquiera de las opciones de acá abajo, te envío los precios de los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio.</p>
+              </AnimatedElement>
+                <CallToAction 
+                  content1="Quiero recibir packs por e-mail"
+                  content2="Quiero recibir packs por whatsapp"
+                />
+            </div>
         </section>     
       </header>
 
       <main className='main-content container--flex container--column'>
         {/* ======== PROJECTS ========== */}
         <section id='projects' className='container'>
-          <h4 className='subheading subheading--spaced-bottom medium text--align-center'>Proyectos Destacados</h4> 
+          <AnimatedElement>
+            <h4 className='subheading subheading--spaced-bottom medium text--align-center'>Proyectos Destacados</h4> 
+          </AnimatedElement>
           <ProjectsContainer />
         </section>
 
         {/* ======== FAQ ========== */}
         <section id='faq' className='container faq'>
-        <h4 className='subheading subheading--spaced-bottom medium'>Preguntas Frecuentes</h4>
+        <AnimatedElement>
+            <h4 className='subheading subheading--spaced-bottom medium'>Preguntas Frecuentes</h4>
+        </AnimatedElement> 
         <AnimatedElement>
           <Accordion 
               header={<h1 className='regular'>¿Qué rol cumple este servicio en mi negocio?</h1>} 

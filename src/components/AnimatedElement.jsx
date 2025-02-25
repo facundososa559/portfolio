@@ -5,7 +5,7 @@ const AnimatedElement = ({ children, direction = "up", delay = 0, duration = 0.4
     hidden: {
       opacity: 0,
       x: direction === "left" ? -50 : direction === "right" ? 50 : 0,
-      y: direction === "up" ? 100 : direction === "down" ? -80 : 0,
+      y: direction === "up" ? 50 : direction === "down" ? -80 : 0,
     },
     visible: {
       opacity: 1,
