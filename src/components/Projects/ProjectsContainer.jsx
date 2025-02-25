@@ -42,6 +42,7 @@ function ProjectsContainer() {
             tablet: activeImageTablet,
             desktop: activeImageDesktop
           }}
+          link={"https://www.figma.com/proto/UgLMBH8ulc2zgLUHJ1ZMLp/FITNESS-WEB?node-id=56-25&t=x0EgKso9jJBFkvNT-1&scaling=min-zoom&content-scaling=fixed&page-id=56%3A2"}
         />
         
         <Project 
@@ -53,6 +54,7 @@ function ProjectsContainer() {
             tablet: urbanImageTablet,
             desktop: urbanImageDesktop
           }}
+          link={"https://www.figma.com/proto/cLoU87Kag19GeTCnlOmBSn/URBAN-STUDIOS?node-id=42-2&t=Jyvy71jPemWp6qL1-1&scaling=min-zoom&content-scaling=fixed&page-id=4%3A2"}
         />
     </ul>
   )

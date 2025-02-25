@@ -25,10 +25,11 @@
 }
 
 .accordion__button-container {
-    position: absolute;
-    bottom: 24px;
-    left: 50;
-    z-index: 1;
+    position: relative;
+}
+
+.accordion__button-container button {
+    margin-bottom: 12px;
 }
 
 .accordion__body--text {

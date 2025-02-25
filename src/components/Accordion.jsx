@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { motion } from "framer-motion";
 import addIcon from "../assets/add-icon.svg"
+import Button from './Button';
 
 function Accordion({header, content, type, images = {}, alt, link}) {
   
@@ -59,7 +60,7 @@ function Accordion({header, content, type, images = {}, alt, link}) {
                 className="accordion__body--img"
               />
 
-              {/* <div className='accordion__button-container container--flex container--center container--fill-x'><Button content="Ver proyecto en Behance" onClick={() => window.open(link, "_blank")} /></div> */}
+              <div className='accordion__button-container container--flex container--center container--fill-x'><Button content="Ver diseño en otra pestaña" onClick={() => window.open(link, "_blank")} /></div>
             </a>
           )}
         
