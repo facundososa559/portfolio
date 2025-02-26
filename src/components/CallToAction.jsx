@@ -28,13 +28,11 @@ function CallToAction({content1, content2}) {
     window.open(url, "_blank");
   };
 
-  return (
-    <AnimatedElement>
-      <div className='call-to-action container--flex container--wrap container--center'>
-        <Button content={content1} onClick={handleEmailClick} />
-        <Button content={content2} onClick={handleWhatsAppClick} />
-      </div>
-    </AnimatedElement>
+  return ( 
+    <div className='call-to-action container--flex container--wrap container--center'>
+      <Button content={content1} onClick={handleEmailClick} />
+      <Button content={content2} onClick={handleWhatsAppClick} />
+    </div>
   );
 }
 

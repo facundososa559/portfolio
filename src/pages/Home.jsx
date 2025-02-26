@@ -31,10 +31,12 @@ function Home() {
               <AnimatedElement delay={0.4}>
                 <p>Haciendo clic en cualquiera de las opciones de acá abajo, te envío los precios de los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio.</p>
               </AnimatedElement>
+              <AnimatedElement delay={0.5}>
                 <CallToAction 
                   content1="Quiero recibir packs por e-mail"
                   content2="Quiero recibir packs por whatsapp"
-                />
+                  />
+              </AnimatedElement>
             </div>
         </section>     
       </header>
@@ -98,10 +100,12 @@ function Home() {
         <section id='contact' className='container container--small container--flex container--column container--center'>
           <AnimatedElement>
             <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>¿Te interesa trabajar conmigo? Si haces click en cualquiera de los botones de acá abajo, te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
-            <CallToAction 
-              content1="Quiero recibir información por e-mail"
-              content2="Quiero recibir información por whatsapp"
-            />
+            <AnimatedElement>
+              <CallToAction 
+                content1="Quiero recibir información por e-mail"
+                content2="Quiero recibir información por whatsapp"
+              />
+            </AnimatedElement>
           </AnimatedElement>
         </section>   
 
