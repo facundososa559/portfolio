@@ -22,7 +22,7 @@ function Home() {
                 <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.2}>
-                <h1 className='heading semi-bold'>Diseño y desarrollo web que aumenta el valor de tu negocio.</h1>
+                <h1 className='heading semi-bold'>Diseño y desarrollo sitios web que aumentan el valor de tu negocio.</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.3}>
                 <p>Diseño, desarrollo y optimizo sitios web para que tus clientes conozcan el valor de tus productos o servicios, en un lugar que ofrece profesionalismo, autoridad y diferenciación.</p>
@@ -70,7 +70,7 @@ function Home() {
         <AnimatedElement>
           <Accordion 
               header={<h1 className='regular'>¿Cómo es el proceso de creación y cómo vamos a trabajar?</h1>} 
-              content={"Evalúo el estado de tu negocio y planifico una estrategia acorde a tus objetivos para empezar a construir un sitio web optimizado que convierte tráfico en clientes. Subo tu web a internet y luego te asesoro sobre como sacarle el máximo partido a esta herramienta."}
+              content={"Evalúo el estado de tu negocio y planifico una estrategia acorde a tus objetivos para construir un sitio web optimizado que convierta tu tráfico en clientes. Subo tu web a internet y luego te asesoro sobre como sacarle el máximo partido a esta herramienta."}
           />
         </AnimatedElement>
         <AnimatedElement>
