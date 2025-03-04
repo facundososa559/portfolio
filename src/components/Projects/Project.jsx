@@ -1,8 +1,5 @@
 import React from 'react'
 import Accordion from '../Accordion'
-import AnimatedElement from '../AnimatedElement'
-
-
 
 function Project({title, description, type, images = {}, link}) {
   return (   

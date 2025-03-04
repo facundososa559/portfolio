@@ -25,7 +25,7 @@ function Home() {
                 <h1 className='heading semi-bold'>Diseño y desarrollo sitios web que aumentan el valor de tu negocio.</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.3}>
-                <p>Diseño, desarrollo y optimizo sitios web para que tus clientes conozcan el valor de tus productos o servicios, en un lugar que ofrece profesionalismo, autoridad y diferenciación.</p>
+                <p>Diseño, desarrollo y optimizo sitios web para que tus clientes reconozcan el valor de tus productos o servicios, en un lugar que ofrece profesionalismo, autoridad y diferenciación.</p>
               </AnimatedElement>
               
               <AnimatedElement delay={0.4}>
