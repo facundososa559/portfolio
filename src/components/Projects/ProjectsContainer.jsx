@@ -32,7 +32,7 @@ function ProjectsContainer() {
             tablet: cuptiImageTablet,
             desktop: cuptiImageDesktop
           }}
-          link={"https://www.figma.com/proto/TJAU0OsxV3JbK42u2g6Wqd/CUPTI---WEB?node-id=360-350&p=f&t=rV03M3t8E2sPLvbr-0&scaling=min-zoom&content-scaling=fixed&page-id=360%3A349"}
+          link={"https://cupti-demo.framer.website/"}
         />
       </AnimatedElement>
         
@@ -46,7 +46,7 @@ function ProjectsContainer() {
               tablet: activeImageTablet,
               desktop: activeImageDesktop
             }}
-            link={"https://www.figma.com/proto/UgLMBH8ulc2zgLUHJ1ZMLp/FITNESS-WEB?node-id=56-25&t=x0EgKso9jJBFkvNT-1&scaling=min-zoom&content-scaling=fixed&page-id=56%3A2"}
+            link={"https://activesport-demo.framer.website/"}
         />
       </AnimatedElement>
         
