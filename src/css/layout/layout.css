@@ -72,6 +72,8 @@
 
 
 @media screen and (min-width: 600px) {
+
+    
     .container--small {
         max-width: 80%;
         align-self: center;
