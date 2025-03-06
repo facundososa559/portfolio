@@ -22,14 +22,14 @@ function Home() {
                 <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.2}>
-                <h1 className='heading semi-bold'>Profesionalismo, autoridad y presencia para tu empresa.</h1>
+                <h1 className='heading semi-bold'>Profesionalismo, seriedad y diferenciación para tu negocio.</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.3}>
-                <p>Diseño, desarrollo y optimizo sitios web para que tus clientes reconozcan el valor de tus productos o servicios, en un lugar que otorga diferenciación y seriedad.</p>
+                <p>Diseño, desarrollo y optimizo sitios web para que tus clientes reconozcan el valor de tus productos o servicios, en un lugar que brinda autoridad y presencia.</p>
               </AnimatedElement>
               
               <AnimatedElement delay={0.4}>
-                <p>Te invito a ver mis proyectos, y si te interesan, te envío los precios de los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio.</p>
+                <p>Te invito a ver mis diseños acá abajo, si te interesan, te envío los datos de los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio.</p>
               </AnimatedElement>
               <AnimatedElement delay={0.5}>
                 <CallToAction 
