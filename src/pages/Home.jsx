@@ -22,7 +22,7 @@ function Home() {
                 <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.2}>
-                <h1 className='heading semi-bold'>Profesionalismo, autoridad y diferenciación para tu negocio.</h1>
+                <h1 className='heading semi-bold'>Profesionalismo, autoridad y diferenciación para tu empresa.</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.3}>
                 <p>Diseño, desarrollo y optimizo sitios web para que tus clientes reconozcan el valor de tus productos o servicios, en un lugar que refuerza tu presencia y seriedad.</p>
@@ -99,7 +99,7 @@ function Home() {
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
           <AnimatedElement>
-            <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>¿Te interesa trabajar conmigo? Si haces click en cualquiera de los botones de acá abajo, te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
+            <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Si te interesa trabajar conmigo te envío la información que necesites y empezamos a construir tu proyecto.</h4>
             <AnimatedElement>
               <CallToAction 
                 content1="Quiero recibir información por e-mail"
