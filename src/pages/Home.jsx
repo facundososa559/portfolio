@@ -29,7 +29,7 @@ function Home() {
               </AnimatedElement>
               
               <AnimatedElement delay={0.4}>
-                <p>Te invito a ver mis diseños acá abajo, si te interesan, te envío los datos de los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio.</p>
+                <p>Te invito a ver mis diseños, si te interesan, te envío los datos de los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio.</p>
               </AnimatedElement>
               <AnimatedElement delay={0.5}>
                 <CallToAction 
