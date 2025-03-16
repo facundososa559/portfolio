@@ -22,14 +22,14 @@ function Home() {
                 <h1 className='text--small extra-light letter-spacing hero__subheading'>FACU DEL VALLE</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.2}>
-                <h1 className='heading hero-heading semi-bold'>Diseño personalizado de redes sociales y sitios web.</h1>
+                <h1 className='heading semi-bold'>Diseño de redes, tiendas y sitios web para negocios.</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.3}>
-                <p>Si te interesa subir el nivel de tus redes sociales y construir una arquitectura digital con profesionalidad y diferenciación, puedo ayudarte.</p>
+                <p>Si te interesa subir el nivel de tu arquitectura digital, y proyectar confianza y seriedad ante tus clientes, estoy para ayudarte.</p>
               </AnimatedElement>
               
               <AnimatedElement delay={0.4}>
-                <p>Haciendo click en las opciones, te envío los datos de los diferentes packs de servicios que tengo para que elijas cuál se adapta mejor a tu negocio.</p>
+                <p>Haciendo click en las opciones de abajo, recibirás los datos de los diferentes packs de servicios que tengo para que elijas cuál se adapta mejor a tu negocio.</p>
               </AnimatedElement>
               <AnimatedElement delay={0.5}>
                 <CallToAction 
