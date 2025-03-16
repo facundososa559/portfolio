@@ -54,7 +54,7 @@
 }
 
 .hero__container {
-    gap: 8px
+    gap: 8px;
 }
 
 
@@ -89,5 +89,12 @@
 
     .container--small {
         max-width: 65%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-heading {
+        max-width: 80%;
+        justify-self: center;
     }
 }
