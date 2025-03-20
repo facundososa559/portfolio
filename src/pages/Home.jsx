@@ -25,11 +25,11 @@ function Home() {
                 <h1 className='heading semi-bold'>Diseño de redes, tiendas y sitios web para negocios.</h1>
               </AnimatedElement>
               <AnimatedElement delay={0.3}>
-                <p>Si te interesa subir el nivel de tu arquitectura digital, y proyectar confianza y seriedad ante tus clientes, estoy para ayudarte.</p>
+                <p>Te ayudo a subir el nivel de tu arquitectura digital, y proyectar confianza, seriedad y profesionalismo a tus clientes.</p>
               </AnimatedElement>
               
               <AnimatedElement delay={0.4}>
-                <p>Haciendo click en las opciones de abajo, recibirás los datos de los diferentes packs de servicios que tengo para que elijas cuál se adapta mejor a tu negocio.</p>
+                <p>Si quieres ver los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio, puedes recibirlos a tu e-mail o whatsapp.</p>
               </AnimatedElement>
               <AnimatedElement delay={0.5}>
                 <CallToAction 
@@ -51,7 +51,7 @@ function Home() {
         </section>
 
         {/* ======== FAQ ========== */}
-        <section id='faq' className='container faq'>
+        {/* <section id='faq' className='container faq'>
         <AnimatedElement>
             <h4 className='subheading subheading--spaced-bottom medium'>Preguntas Frecuentes</h4>
         </AnimatedElement> 
@@ -85,21 +85,12 @@ function Home() {
               content={"Es la herramienta de marketing que voy a utilizar para entender y potenciar tu negocio. Explica el proceso de compra de un cliente, y maneja cuatro aspectos fundamentales: atracción, interacción, deseo y acción."}
           />
         </AnimatedElement>
-
-          
-
-          
-          {/* <Accordion 
-                header={<h1 className='regular'>¿Cuánto cuesta adquirir este servicio?</h1>} 
-                content={"Depende del tipo de proyecto que estés buscando construir y del trabajo que eso conlleve. Una landing page simple puede costar entre unos U$D100 y U$D300, mientras que una tienda que ofrezca un catálogo de productos puede costar entre U$D300 y U$D600. De todas maneras, siempre analizo el tipo de proyecto y tengo en cuenta el presupuesto de mi cliente para hacer un trabajo más efectivo, por lo que estos precios pueden variar."}
-          /> */}
-          
-        </section>
+        </section> */}
 
         {/* ========= CTA =========== */}
         <section id='contact' className='container container--small container--flex container--column container--center'>
           <AnimatedElement>
-            <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Si te interesa trabajar conmigo te envío la información que necesites y empezamos a construir tu proyecto.</h4>
+            <h4 className='subheading subheading--spaced-bottom text--align-center semi-bold'>Si te interesa trabajar conmigo te envío toda la información que necesites y empezamos a construir tu proyecto.</h4>
             <AnimatedElement>
               <CallToAction 
                 content1="Quiero recibir información por e-mail"

@@ -34,6 +34,10 @@
     font-size: 1.5rem;
 }
 
+.text--sm {
+    font-size: 1rem;
+}
+
 .letter-spacing {
     letter-spacing: 6px;
 }
