@@ -29,7 +29,7 @@ function Home() {
               </AnimatedElement>
               
               <AnimatedElement delay={0.4}>
-                <p>Si quieres ver los diferentes packs de servicios que tengo, para que elijas cuál se adapta mejor a tu negocio, puedes recibirlos a tu e-mail o whatsapp.</p>
+                <p>Si quieres ver los diferentes packs de servicios que tengo, para elegir cuál se adapta mejor a tu negocio, puedes recibirlos a tu e-mail o whatsapp.</p>
               </AnimatedElement>
               <AnimatedElement delay={0.5}>
                 <CallToAction 
